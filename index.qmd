@@ -1,0 +1,24 @@
+---
+title: ""
+about: 
+  template: broadside
+  image: main-photo.jpeg
+  #image-width: 10em 
+  #image-shape: rectangle
+  links:
+    - icon: twitter
+      #text: twitter
+      href: https://twitter.com/nghiempact
+    - icon: github
+      #text: Github
+      href: https://github.com/nqhuynh
+---
+
+My name is Nghiem Q. Huynh (Huỳnh Quang Nghiêm). My first name sounds like Nim, and my last name
+
+I am fourth-year PhD student in economics at Yale University.
+
+My research interests are trade, spatial, and development economics. My CV is [here](https://github.com/nqhuynh).
+
+\
+Email: `nghiem.huynh@yale.edu`

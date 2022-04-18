@@ -1,0 +1,12 @@
+---
+title: ""
+listing:
+  contents: papers
+  type: default
+  sort: "date"
+  field-display-names:
+    date: "Last updated"
+  fields: [title, author, description, date]
+---
+
+# Working papers
