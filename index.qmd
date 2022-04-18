@@ -1,10 +1,10 @@
 ---
 title: ""
 about: 
-  template: broadside
+  template: solana
   image: main-photo.jpeg
-  #image-width: 10em 
-  #image-shape: rectangle
+  image-width: 24em 
+  image-shape: rectangle
   links:
     - icon: twitter
       #text: twitter
