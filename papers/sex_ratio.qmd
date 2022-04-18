@@ -3,6 +3,6 @@ title: "Sex Ratio: Evidence from Vietnam"
 author: 
     - Nghiem Q. Huynh
     - Ngoc T. Nguyen
-description: 
+description: "Pending"
 date: "2022/04/17"
 ---
