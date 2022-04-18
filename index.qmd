@@ -5,13 +5,13 @@ about:
   image: main-photo.jpeg
   image-width: 24em 
   image-shape: rectangle
-  links:
-    - icon: twitter
-      #text: twitter
-      href: https://twitter.com/nghiempact
-    - icon: github
-      #text: Github
-      href: https://github.com/nqhuynh
+  # links:
+  #   - icon: twitter
+  #     #text: twitter
+  #     href: https://twitter.com/nghiempact
+  #   - icon: github
+  #     #text: Github
+  #     href: https://github.com/nqhuynh
 ---
 
 My name is Nghiem Q. Huynh (Huỳnh Quang Nghiêm). My first name sounds like Nim.

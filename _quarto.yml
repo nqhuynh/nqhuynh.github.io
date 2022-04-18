@@ -4,6 +4,13 @@ project:
 
 website:
   title: "Nghiem Q. Huynh"
+  page-footer: 
+    left: "Copyright 2022, Nghiem Q. Huynh" 
+    right: 
+      - icon: github
+        href: https://twitter.com/nghiempact
+      - icon: twitter 
+        href: https://github.com/nqhuynh
   navbar:
     background: "#2A5DCB"
     search: false
