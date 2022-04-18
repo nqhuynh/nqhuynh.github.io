@@ -14,11 +14,11 @@ about:
       href: https://github.com/nqhuynh
 ---
 
-My name is Nghiem Q. Huynh (Huỳnh Quang Nghiêm). My first name sounds like Nim, and my last name
+My name is Nghiem Q. Huynh (Huỳnh Quang Nghiêm). My first name sounds like Nim.
 
 I am fourth-year PhD student in economics at Yale University.
 
-My research interests are trade, spatial, and development economics. My CV is [here](https://github.com/nqhuynh).
+My research interests are trade, spatial, and development economics.
 
 \
 Email: `nghiem.huynh@yale.edu`
