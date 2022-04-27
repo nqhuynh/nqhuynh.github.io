@@ -3,10 +3,10 @@ title: ""
 listing:
   contents: papers
   type: default
-  sort: "date"
+  sort: "date desc"
+  fields: [title, description, author, date]
   field-display-names:
     date: "Last updated"
-  fields: [title, author, description]
 sidebar: false
 ---
 

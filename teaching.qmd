@@ -1,15 +1,14 @@
 ---
 title: ""
+sidebar: false
 ---
 
-## Yale University
+## Yale University - Teaching Assistant
 
--   Spring 2022: Econ 116, Introduction to Macro
+-   Introduction to Macro, Econ 116, Prof. Aleh Tsyvinski, Spring 2022, Spring 2021
 
--   Fall 2021: Econ 115, Introduction to Micro
+-   Introduction to Micro, Econ 115, Prof. Cormac O'Dea, Fall 2021
 
--   Summer 2021: Intermediate Micro
+-   Intermediate Micro, Summer 2021
 
--   Spring 2021: Introduction to Macro
-
--   Fall 2020: Intermediate Macro
+-   Intermediate Macro, Fall 2020

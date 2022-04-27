@@ -5,12 +5,12 @@ project:
 website:
   title: "Nghiem Q. Huynh"
   page-footer: 
-    left: "Copyright 2022, Nghiem Q. Huynh" 
+    left: "Copyright © 2022, Nghiem Q. Huynh" 
     right: 
       - icon: github
-        href: https://twitter.com/nghiempact
-      - icon: twitter 
         href: https://github.com/nqhuynh
+      - icon: twitter 
+        href: https://twitter.com/nghiempact 
   navbar:
     background: "#2A5DCB"
     search: false
