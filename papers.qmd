@@ -6,7 +6,7 @@ listing:
   sort: "date"
   field-display-names:
     date: "Last updated"
-  fields: [title, author, description, date]
+  fields: [title, author, description]
 sidebar: false
 ---
 
