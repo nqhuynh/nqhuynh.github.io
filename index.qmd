@@ -14,7 +14,7 @@ about:
   #     href: https://github.com/nqhuynh
 ---
 
-My name is Nghiem Q. Huynh \[first name: /ŋim˧˧/; last name: /wɨn˨˩/\] (Huỳnh Quang Nghiêm).
+My name is Nghiem Huynh \[/ŋim˧˧ wɨn˨˩/\] (Huỳnh Quang Nghiêm).
 
 I am a fourth-year PhD student in economics at Yale University.
 
