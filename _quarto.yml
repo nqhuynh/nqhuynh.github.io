@@ -11,8 +11,11 @@ website:
         href: https://github.com/nqhuynh
       - icon: twitter 
         href: https://twitter.com/nghiempact 
+  sidebar: false
   navbar:
-    background: "#2A5DCB"
+    background: "white"
+    # foreground: "#0f4d92"
+    pinned: true
     search: false
     left:
       - href: index.qmd
@@ -21,13 +24,16 @@ website:
         text: Research
       - href: teaching.qmd
         text: Teaching
-
 format:
   html:
     theme: cosmo
     mainfont: charter
     monofont: Monaco
-    linkcolor: "#2A5DCB"
+    linkcolor: "#011936"
+    fontcolor: "black"
+    monobackgroundcolor:  "white"
+    backgroundcolor: "white"
+    link-external-newwindow: true
     css: styles.css
     toc: true
 

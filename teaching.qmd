@@ -1,6 +1,7 @@
 ---
 title: ""
 sidebar: false
+toc: false 
 ---
 
 ## Yale University - Teaching Assistant

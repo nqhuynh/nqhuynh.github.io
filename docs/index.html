@@ -19,7 +19,6 @@ ul.task-list{list-style: none;}
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
@@ -97,10 +96,10 @@ ul.task-list{list-style: none;}
     <div class="entity-contents">
       <div class="about-contents"><main class="content" id="quarto-document-content">
 <p>My name is Nghiem Huynh [/ŋim˧˧ wɨn˨˩/] (Huỳnh Quang Nghiêm).</p>
-<p>I am a fourth-year PhD student in economics at Yale University.</p>
+<p>I am a fifth-year PhD student in economics at Yale University.</p>
 <p>My research interests are trade, spatial, and development economics.</p>
 <p><br>
-Email: <code>nghiem.huynh@yale.edu</code></p>
+Email: nghiem.huynh@yale.edu</p>
 
 
 </main></div>
@@ -198,6 +197,20 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return popup.innerHTML;
     });
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->

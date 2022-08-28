@@ -1,5 +1,5 @@
 ---
 title: "Place-based and Migration Policies: Evidence from Vietnam"
-description: Fast economic growth can amplify spatial inequality, which can be mitigated by place-based or migration policies. Shall a government subsidize firms to enter or people to migrate out of poorer regions to increase welfare? What about a combination of them? I seek to answer these questions in the context of Vietnam. First, I document a pair of place-based and migration policies in the 2000s and show how they affect firms' locations. I then leverage the time-varying aspect of the place-based policy to estimate a structural parameter of a dynamic model with forward-looking firms and households.
-date: "2022/04/27"
+abstract: Fast economic growth can amplify spatial inequality, which can be mitigated by place-based or migration policies. Shall a government subsidize firms to enter or people to migrate out of poorer regions to increase welfare? What about a combination of them? I seek to answer these questions in the context of Vietnam. First, I document a pair of place-based and migration policies in the 2000s and show how they affect firms' locations. I then leverage the time-varying aspect of the place-based policy to estimate a structural parameter of a dynamic model with forward-looking firms and households.
+# date: "2022/04/27"
 ---
