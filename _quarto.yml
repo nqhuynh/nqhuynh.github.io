@@ -27,7 +27,7 @@ website:
 format:
   html:
     theme: cosmo
-    # mainfont: charter
+    mainfont: charter
     # monofont: Monaco
     linkcolor: "#011936"
     fontcolor: "black"
