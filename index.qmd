@@ -1,5 +1,5 @@
 ---
-title: "Nghiem Q. Huynh"
+# title: "Nghiem Q. Huynh"
 image: main-photo.jpeg
 about: 
   template: trestles
