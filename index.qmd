@@ -1,24 +1,23 @@
 ---
 title: ""
+image: main-photo.jpeg
 about: 
-  template: solana
-  image: main-photo.jpeg
-  image-width: 24em 
-  image-shape: rectangle
-  # links:
-  #   - icon: twitter
-  #     #text: twitter
-  #     href: https://twitter.com/nghiempact
-  #   - icon: github
-  #     #text: Github
-  #     href: https://github.com/nqhuynh
+  template: trestles
+  image-width: 18em 
+  image-shape: round
+  links:
+    - icon: github
+      #text: Github
+      href: https://github.com/nqhuynh
+    - icon: twitter
+      #text: twitter
+      href: https://twitter.com/nghiempact
 ---
 
-My name is Nghiem Huynh \[/ŋim˧˧ wɨn˨˩/\] (Huỳnh Quang Nghiêm).
+Greetings! My name is Huỳnh Quang Nghiêm, but you can simply call me Nghiem Huynh, pronounced 'Nim Hwin'.
 
-I am a fifth-year PhD student in economics at Yale University.
+As a Ph.D. candidate at Yale University, my research focuses on Development Economics and International Trade.
 
-My research interests are trade, spatial, and development economics.
+Discover more about my research [here](papers.qmd) and find my CV here.
 
-\
-Email: nghiem.huynh\@yale.edu
+For potential collaborations or inquiries, please reach out at [nghiem.huynh\@yale.edu.]{.underline}

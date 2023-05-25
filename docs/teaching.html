@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.37">
+<meta name="generator" content="quarto-1.2.269">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,10 +11,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 </style>
 
 
@@ -63,22 +68,27 @@ ul.task-list{list-style: none;}
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="./index.html">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Nghiem Q. Huynh</span>
-  </a>
+    </a>
+  </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">Home</a>
+    <a class="nav-link" href="./index.html">
+ <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./papers.html">Research</a>
+    <a class="nav-link" href="./papers.html">
+ <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./teaching.html" aria-current="page">Teaching</a>
+    <a class="nav-link active" href="./teaching.html" aria-current="page">
+ <span class="menu-text">Teaching</span></a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -98,12 +108,37 @@ ul.task-list{list-style: none;}
 
 <section id="yale-university---teaching-assistant" class="level2">
 <h2 class="anchored" data-anchor-id="yale-university---teaching-assistant">Yale University - Teaching Assistant</h2>
+<section id="introductory-microeconomics-econ-115" class="level3">
+<h3 class="anchored" data-anchor-id="introductory-microeconomics-econ-115">Introductory Microeconomics (Econ 115)</h3>
 <ul>
-<li><p>Introduction to Macro, Econ 116, Prof.&nbsp;Aleh Tsyvinski, Spring 2022, Spring 2021</p></li>
-<li><p>Introduction to Micro, Econ 115, Prof.&nbsp;Cormac O’Dea, Fall 2021</p></li>
-<li><p>Intermediate Micro, Summer 2021</p></li>
-<li><p>Intermediate Macro, Fall 2020</p></li>
+<li>Fall 2022 &amp; Fall 2021</li>
+<li>Instructor: Cormac O’Dea</li>
 </ul>
+</section>
+<section id="introductory-macroeconomics-econ-116" class="level3">
+<h3 class="anchored" data-anchor-id="introductory-macroeconomics-econ-116">Introductory Macroeconomics (Econ 116)</h3>
+<ul>
+<li>Spring 2022 &amp; Spring 2021</li>
+<li>Instructor: Aleh Tsyvinski</li>
+</ul>
+</section>
+<section id="intermediate-microeconomics-econ-121" class="level3">
+<h3 class="anchored" data-anchor-id="intermediate-microeconomics-econ-121">Intermediate Microeconomics (Econ 121)</h3>
+<ul>
+<li>Summer 2021</li>
+<li>Instructor: Jonathan Hawkins-Pierot</li>
+</ul>
+</section>
+<section id="intermediate-macroeconomics-econ-122" class="level3">
+<h3 class="anchored" data-anchor-id="intermediate-macroeconomics-econ-122">Intermediate Macroeconomics (Econ 122)</h3>
+<ul>
+<li>Fall 2020</li>
+<li>Instructors: Ilse Lindenlaub and Marnix Amand</li>
+</ul>
+</section>
+</section>
+<section id="mentoring" class="level2">
+<h2 class="anchored" data-anchor-id="mentoring">Mentoring</h2>
 
 
 </section>
@@ -150,7 +185,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -178,31 +230,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -210,7 +281,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
-    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external)');
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
@@ -223,9 +294,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">Copyright © 2022, Nghiem Q. Huynh</div>   
-    <div class="nav-footer-right">
-      <ul class="footer-items list-unstyled">
+    <div class="nav-footer-left">© 2023, Nghiem Q. Huynh</div>   
+      <div class="nav-footer-center">
+        <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/nqhuynh">
       <i class="bi bi-github" role="img">
@@ -238,8 +309,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </i> 
     </a>
   </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/nghiemhuynh/">
+      <i class="bi bi-linkedin" role="img">
+</i> 
+    </a>
+  </li>  
 </ul>
-    </div>
+      </div>
+    <div class="nav-footer-right">Made with <a href="https://quarto.org/">Quarto</a></div>
   </div>
 </footer>
 

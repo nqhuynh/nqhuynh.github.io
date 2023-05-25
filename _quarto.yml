@@ -5,16 +5,21 @@ project:
 website:
   title: "Nghiem Q. Huynh"
   page-footer: 
-    left: "Copyright © 2022, Nghiem Q. Huynh" 
-    right: 
+    left: "© 2023, Nghiem Q. Huynh"
+    right: "Made with [Quarto](https://quarto.org/)"
+    center: 
       - icon: github
         href: https://github.com/nqhuynh
       - icon: twitter 
         href: https://twitter.com/nghiempact 
+      - icon: linkedin
+        href: https://www.linkedin.com/in/nghiemhuynh/
+      # - icon: envelope
+      #   href: mailto:nghiem.huynh@yale.edu
   sidebar: false
   navbar:
     background: "white"
-    # foreground: "#0f4d92"
+    foreground: "black"
     pinned: true
     search: false
     left:
@@ -24,12 +29,14 @@ website:
         text: Research
       - href: teaching.qmd
         text: Teaching
+      # - href: CV
+      #   text: CV
 format:
   html:
     theme: cosmo
-    # mainfont: charter
-    # monofont: Monaco
-    linkcolor: "#011936"
+    mainfont: charter
+    # monofont: 
+    linkcolor: "#0F4D92"
     fontcolor: "black"
     monobackgroundcolor:  "white"
     backgroundcolor: "white"

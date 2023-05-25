@@ -31,3 +31,15 @@ font-weight: bold;
 font-stretch: normal;
 src: url('fonts/Charter/WOFF2/Charter/charter_bold_italic.woff2') format('woff2');
 }
+
+/* Remove underline from all anchor elements */
+a {
+  text-decoration: none;
+}
+
+/* Add underline or show symbols only to hyperlinks on hover */
+a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+
