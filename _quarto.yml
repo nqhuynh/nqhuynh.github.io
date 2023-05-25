@@ -22,7 +22,7 @@ website:
     foreground: "black"
     pinned: true
     search: false
-    left:
+    right:
       - href: index.qmd
         text: Home
       - href: papers.qmd
