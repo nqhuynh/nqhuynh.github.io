@@ -34,7 +34,7 @@ website:
 format:
   html:
     theme: cosmo
-    mainfont: charter
+    mainfont: 'Open Sans'
     # monofont: 
     linkcolor: "#0F4D92"
     fontcolor: "black"
@@ -43,6 +43,7 @@ format:
     link-external-newwindow: true
     css: styles.css
     toc: false
+    # include-in-header: header.html
 
 editor: visual
 
