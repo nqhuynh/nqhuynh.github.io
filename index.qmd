@@ -5,13 +5,13 @@ about:
   template: trestles
   image-width: 18em 
   image-shape: round
-  links:
-    - icon: github
-      #text: Github
-      href: https://github.com/nqhuynh
-    - icon: twitter
-      #text: twitter
-      href: https://twitter.com/nghiempact
+  # links:
+  #   - icon: github
+  #     #text: Github
+  #     href: https://github.com/nqhuynh
+  #   - icon: twitter
+  #     #text: twitter
+  #     href: https://twitter.com/nghiempact
 ---
 
 Greetings! My name is Huỳnh Quang Nghiêm, but you can simply call me Nghiem Huynh, pronounced 'Nim Hwin'.

@@ -12,9 +12,9 @@
 format:
   html:
     link-external-icon: false
-sidebar: false
+sidebar: true
 toc: false 
-search: false
+search: true
 callout-appearance: simple
 callout-icon: false
 linkcolor: "#0F4D92"
@@ -24,12 +24,12 @@ linkcolor: "#0F4D92"
 
 ### Moving Firms or Moving People? The Case of Vietnam \[JMP\] 
 
-::: {.callout-note collapse="false"}
+::: {.callout-note collapse="true"}
 ## Abstract
 
 This paper examines the interplay between two prevalent development policies: incentivizing firms to invest in impoverished areas and encouraging migration out of these regions. To this end, I quantify the effects of such policy changes on welfare in Vietnam. During the 2000s, the Vietnamese government introduced tax breaks for firms in disadvantaged districts and relaxed the Ho Khau policy, which had previously limited internal mobility. To assess the impact of these policies, I construct and estimate a dynamic spatial general equilibrium model using firm and household data and policy changes from Vietnam.
 
-[Download Full Paper (PDF)](www.example.com/link-to-pdf)
+<!-- [Download Full Paper (PDF)](www.example.com/link-to-pdf) -->
 
 <!-- #### Press Coverage -->
 <!-- 1. [Title of Press Coverage 1](link-to-press-coverage-1) -->
@@ -41,7 +41,7 @@ This paper examines the interplay between two prevalent development policies: in
 
 
 ### Why does the sex ratio at birth rise?  Evidence from Vietnam
-(with Ngoc T. Nguyen)
+(with [Ngoc T. Nguyen](https://sites.google.com/view/jade-ngoc-nguyen/home?authuser=0))
 
 ::: {.callout-note collapse="true"}
 ## Abstract
