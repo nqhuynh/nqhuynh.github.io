@@ -41,8 +41,8 @@ This paper examines the interplay between two prevalent development policies: in
 
 
 ### Why does Sex Ratio at Birth Rise?  Evidence from Vietnam
-(with [Ngoc T. Nguyen](https://sites.google.com/view/jade-ngoc-nguyen/home?authuser=0))
-
+(with Ngoc T. Nguyen)
+<!-- (https://sites.google.com/view/jade-ngoc-nguyen/home?authuser=0)) -->
 ::: {.callout-note collapse="true"}
 ## Abstract
 

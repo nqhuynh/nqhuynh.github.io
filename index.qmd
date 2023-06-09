@@ -18,6 +18,8 @@ My name is Nghiem Huynh, pronounced 'Nim Hwin' (Huỳnh Quang Nghiêm, in Vietna
 
 As a Ph.D. candidate at Yale University, my research focuses on Development Economics and International Trade.
 
-Read more about my research [here](papers.qmd) and find my CV here.
+Read more about my research [here](papers.qmd).
+
+ <!-- and find my CV here -->
 
 For potential collaborations or inquiries, please reach out at [nghiem.huynh\@yale.edu]{.underline}
