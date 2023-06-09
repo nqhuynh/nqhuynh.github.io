@@ -29,4 +29,4 @@ toc: false
 - Fall 2020
 - Instructors: Ilse Lindenlaub and Marnix Amand
 
-## Mentoring
+<!-- ## Mentoring -->
