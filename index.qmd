@@ -20,6 +20,6 @@ As a Ph.D. candidate at Yale University, my research focuses on Development Econ
 
 Read more about my research [here](papers.qmd).
 
- <!-- and find my CV here -->
+<!-- and find my CV here -->
 
 For potential collaborations or inquiries, please reach out at [nghiem.huynh\@yale.edu]{.underline}

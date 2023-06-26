@@ -22,31 +22,32 @@ linkcolor: "#0F4D92"
 
 ## Working papers
 
-### Moving Firms or Moving People? The Case of Vietnam \[JMP\] 
+### Moving Firms or Moving People? The Welfare Effects of Place-based Policies \[JMP\]
 
 ::: {.callout-note collapse="true"}
 ## Abstract
 
-This paper examines the interplay between two prevalent development policies: incentivizing firms to invest in impoverished areas and encouraging migration out of these regions. To this end, I quantify the effects of such policy changes on welfare in Vietnam. During the 2000s, the Vietnamese government introduced tax breaks for firms in disadvantaged districts and relaxed the Ho Khau policy, which had previously limited internal mobility. To assess the impact of these policies, I construct and estimate a dynamic spatial general equilibrium model using firm and household data and policy changes from Vietnam.
+Do policies encouraging business development in impoverished regions improve welfare more effectively than those promoting migration out of such areas? 
 
 <!-- [Download Full Paper (PDF)](www.example.com/link-to-pdf) -->
 
 <!-- #### Press Coverage -->
+
 <!-- 1. [Title of Press Coverage 1](link-to-press-coverage-1) -->
+
 <!-- 2. [Title of Press Coverage 2](link-to-press-coverage-2) -->
+
 <!-- 3. [Title of Press Coverage 3](link-to-press-coverage-3) -->
 :::
 
+### Why does Sex Ratio at Birth Rise? Evidence from Vietnam
 
-<!-- (https://sites.google.com/view/jade-ngoc-nguyen/home?authuser=0)) -->
-
-### Why does Sex Ratio at Birth Rise?  Evidence from Vietnam
 (with Ngoc T. Nguyen)
 
 ::: {.callout-note collapse="true"}
 ## Abstract
 
-We test three theories of the rise in sex ratio at birth and find evidence that the fertility mechanism explains the recent increase in Vietnam. Using the 2001 US-Vietnam Bilateral Trade Agreement as an exogenous shock, we show that mothers exposed to larger tariff cuts are more likely to have boys, work more hours and less likely to give birth. These results hold up when we account for other competing mechanisms, including changes in fathers' exposure to the policy and daughters' economic returns in repeated cross-sectional and panel data. This paper highlights the trade-off between work and children for mothers, and the potential role of trade policy in heightening this trade-off, leading to lower fertility and higher sex-selection. 
+This study connects Vietnam's elevated sex ratio at birth (SRB) to the 2001 US-Vietnam Bilateral Trade Agreement. Our model incorporates three factors that influence SRB: income, relative returns based on the child's sex, and fertility. The model presents twelve predictions, which are tested using large-scale repeated cross-sectional and panel surveys in a diff-in-diff design. The results indicate that mothers who experience larger tariff reductions tend to have a stronger preference for sons, work more, and desire fewer children. These findings suggest that fertility is the main driver of the elevated SRB. Overall, this paper highlights the interplay between cultural norms, maternal income, childcare, and fertility, revealing the unexpected demographic impact of trade policies.
 
 <!-- [Download Full Paper (PDF)](www.example.com/link-to-pdf) -->
 :::
