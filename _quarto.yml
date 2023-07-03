@@ -31,6 +31,7 @@ website:
         text: Teaching
       # - href: CV
       #   text: CV
+  google-analytics: "G-GHF16EY2G2"
 format:
   html:
     theme: cosmo
