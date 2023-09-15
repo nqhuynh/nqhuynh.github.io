@@ -6,9 +6,10 @@ a {
   text-decoration: none;
 }
 
+
+
 /* Add underline or show symbols only to hyperlinks on hover */
 a:hover {
   text-decoration: underline; /* Add underline on hover */
 }
-
 

@@ -22,12 +22,12 @@ linkcolor: "#0F4D92"
 
 ## Working papers
 
-### Moving Firms or Moving People? The Welfare Effects of Place-based Policies \[JMP\]
+### The Welfare Effects of Place-based Policies \[JMP\]
 
 ::: {.callout-note collapse="true"}
 ## Abstract
 
-Do policies encouraging business development in impoverished regions improve welfare more effectively than those promoting migration out of such areas? 
+Limited mobility of goods and people contributes to persistent inequality within and between countries. To address spatial inequality, two common policies involve promoting business development in disadvantaged regions and reducing barriers to migration. I evaluate these policies in Vietnam where the government provided tax incentives for firms entering underdeveloped areas and eased the Ho Khau policy that restricted internal migration. To quantify their welfare effects, I develop a dynamic model that allows workers and entrepreneurs to sort across space and exploit policy variations to estimate key parameters through multiple difference-in-differences. The results reveal that tax incentives raise welfare in disadvantaged areas but come at a cost to richer ones. However, with greater worker mobility, place-based incentives can raise aggregate welfare and further reduce inequality. These findings underscore the importance of incorporating workers and firms when evaluating the effects of place-based policies.
 
 <!-- [Download Full Paper (PDF)](www.example.com/link-to-pdf) -->
 
