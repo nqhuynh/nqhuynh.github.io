@@ -22,12 +22,12 @@ linkcolor: "#0F4D92"
 
 ## Working papers
 
-### The Welfare Effects of Place-based Policies \[JMP\]
+### The Effects of Place-Based and Migration Policies on Spatial Inequality \[JMP\]
 
 ::: {.callout-note collapse="true"}
 ## Abstract
 
-Limited mobility of goods and people contributes to persistent inequality within and between countries. To address spatial inequality, two common policies involve promoting business development in disadvantaged regions and reducing barriers to migration. I evaluate these policies in Vietnam where the government provided tax incentives for firms entering underdeveloped areas and eased the Ho Khau policy that restricted internal migration. To quantify their welfare effects, I develop a dynamic model that allows workers and entrepreneurs to sort across space and exploit policy variations to estimate key parameters through multiple difference-in-differences. The results reveal that tax incentives raise welfare in disadvantaged areas but come at a cost to richer ones. However, with greater worker mobility, place-based incentives can raise aggregate welfare and further reduce inequality. These findings underscore the importance of incorporating workers and firms when evaluating the effects of place-based policies.
+Limited mobility of goods and people contributes to persistent inequality within and between countries. To address spatial inequality, two common policies are promoting business development in disadvantaged regions and reducing barriers to migration. I evaluate these policies in Vietnam where the government provided tax incentives for firms entering underdeveloped areas and eased the Ho Khau policy that restricted internal migration. To quantify their welfare effects, I develop a dynamic model that allows workers and entrepreneurs to sort across space and exploit policy variations to estimate key parameters through multiple difference-in-differences. The results reveal that tax incentives raise welfare in disadvantaged areas but come at a cost to richer ones. However, with greater worker mobility, place-based incentives can raise aggregate welfare and further reduce inequality. These findings highlight the importance of considering both worker mobility barriers and firm dynamics when evaluating the effects of place-based policies.
 
 <!-- [Download Full Paper (PDF)](www.example.com/link-to-pdf) -->
 
