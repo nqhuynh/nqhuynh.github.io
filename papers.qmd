@@ -22,12 +22,12 @@ linkcolor: "#0F4D92"
 
 ## Working papers
 
-### The Effects of Place-Based and Migration Policies on Spatial Inequality \[JMP\]
+### The Effects of Migration and Place-based Policies on Spatial Inequality \[JMP\]
 
 ::: {.callout-caution collapse="true"}
 ## Abstract
 
-Limited mobility of goods and people contributes to persistent inequality within and between countries. To address spatial inequality, two common policies are promoting business development in disadvantaged regions and reducing barriers to migration. I evaluate these policies in Vietnam where the government provided tax incentives for firms entering underdeveloped areas and eased the Ho Khau policy that restricted internal migration. To quantify their welfare effects, I develop a dynamic model that allows workers and entrepreneurs to sort across space and exploit policy variations to estimate key parameters through multiple difference-in-differences. The results reveal that tax incentives raise welfare in disadvantaged areas but come at a cost to richer ones. However, with greater worker mobility, place-based incentives can raise aggregate welfare and further reduce inequality. These findings highlight the importance of considering both worker mobility barriers and firm dynamics when evaluating the effects of place-based policies.
+This study quantifies the effects of two policies, the Ho Khau reform reducing migration barriers and place-based tax incentives, on addressing spatial inequality in Vietnam. I develop a dynamic spatial general equilibrium model incorporating workers' and entrepreneurs' choices. The model highlights the dual role of policies: tax incentives lure entrepreneurs, boosting local demand, while eased migration barriers can both offset and amplify these effects. I leverage two decades of Vietnamese firm and household data, using difference-in-differences designs to identify two key factors influencing policy effects, including the spatial firm entry elasticity and migration costs associated with the Ho Khau reform. I find that place-based incentives enhance welfare in disadvantaged areas but penalize wealthier ones. Reduced migration costs, through the Ho Khau reform, boost welfare across the board, particularly benefiting poorer regions. When implemented together, these policies reinforce each other, further reducing spatial inequality.
 
 <!-- [Download Full Paper (PDF)](www.example.com/link-to-pdf) -->
 
