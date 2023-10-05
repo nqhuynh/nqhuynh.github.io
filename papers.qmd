@@ -22,7 +22,7 @@ linkcolor: "#0F4D92"
 
 ## Working papers
 
-### The Effects of Migration and Place-based Policies on Spatial Inequality \[JMP\]
+### Place-based Policy, Migration Barriers, and Spatial Inequality \[JMP\]
 
 ::: {.callout-caution collapse="true"}
 ## Abstract
