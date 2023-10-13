@@ -1,6 +1,6 @@
 ---
-# title: "Nghiem Q. Huynh"
-image: main-photo.jpeg
+# title: "Nghiem Q. Huynh" main-photo.jpeg
+image: 1.JPG
 about: 
   template: trestles
   image-width: 18em 
