@@ -29,8 +29,8 @@ website:
         text: Research
       - href: teaching.qmd
         text: Teaching
-      # - href: CV
-      #   text: CV
+      - href: Nghiem_Huynh_CV.pdf
+        text: CV
   google-analytics: "G-GHF16EY2G2"
 format:
   html:
