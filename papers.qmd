@@ -40,7 +40,7 @@ This study quantifies the effects of two policies, the Ho Khau reform reducing m
 <!-- 3. [Title of Press Coverage 3](link-to-press-coverage-3) -->
 :::
 
-### [Why Does the Sex Ratio at Birth Rise? Evidence from Vietnam](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4582123)
+### [Why Does the Sex Ratio at Birth Rise? Evidence from Vietnam](papers/Sex_ratio_vn.pdf){target="_blank"}
 
 (with Ngoc Nguyen)
 
@@ -49,6 +49,7 @@ This study quantifies the effects of two policies, the Ho Khau reform reducing m
 
 This study connects Vietnam's elevated sex ratio at birth (SRB) to the 2001 US-Vietnam Bilateral Trade Agreement. Our model incorporates three major factors that influence SRB: income, relative returns based on the child's sex, and fertility. The model presents twelve predictions, which are tested using large-scale repeated cross-sectional and panel surveys in a difference-in-difference design. The results indicate that mothers who experience larger tariff reductions tend to have a stronger preference for sons, work more, and desire fewer children. These findings suggest that fertility is the main driver of the elevated SRB. Overall, this paper highlights the interplay between cultural norms, maternal income, childcare, and fertility, revealing the unexpected demographic impact of trade policies.
 
+[Full Paper (PDF)](papers/Sex_ratio_vn.pdf)
 
 [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4582123)
 
