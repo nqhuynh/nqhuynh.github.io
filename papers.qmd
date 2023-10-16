@@ -22,7 +22,7 @@ linkcolor: "#0F4D92"
 
 ## Working papers
 
-### Place-based Policy, Migration Barriers, and Spatial Inequality \[JMP\]
+#### Place-based Policy, Migration Barriers, and Spatial Inequality \[JMP\]
 
 ::: {.callout-caution collapse="true"}
 ## Abstract
@@ -40,9 +40,9 @@ This study quantifies the effects of two policies, the Ho Khau reform reducing m
 <!-- 3. [Title of Press Coverage 3](link-to-press-coverage-3) -->
 :::
 
-### [Why Does the Sex Ratio at Birth Rise? Evidence from Vietnam](papers/Sex_ratio_vn.pdf){target="_blank"}
+#### [Why Does the Sex Ratio at Birth Rise? Evidence from Vietnam](papers/Sex_ratio_vn.pdf){target="_blank"}
 
-(with Ngoc Nguyen)
+(with Ngoc T. Nguyen)
 
 ::: {.callout-caution collapse="true"}
 ## Abstract

@@ -5,7 +5,7 @@ project:
 website:
   title: "Nghiem Q. Huynh"
   page-footer: 
-    left: "© 2023, Nghiem Q. Huynh"
+    #left: "© 2023, Nghiem Q. Huynh"
     right: "Made with [Quarto](https://quarto.org/)"
     center: 
       - icon: github
@@ -29,7 +29,7 @@ website:
         text: Research
       - href: teaching.qmd
         text: Teaching
-      - href: Nghiem_Huynh_CV.pdf
+      - href: Huynh_Nghiem_CV.pdf
         text: CV
   google-analytics: "G-GHF16EY2G2"
 format:
