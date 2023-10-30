@@ -1,21 +1,7 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Nghiem Q. Huynh",
-    "section": "",
-    "text": "My name is Nghiem Huynh, pronounced ‘Nim Hwin’ (Huỳnh Quang Nghiêm, in Vietnamese).\nMy research focuses on Development Economics and International Trade.\nRead more about my research here and find my CV here.\nFor potential collaborations or inquiries, please reach out at nghiem.huynh@yale.edu"
-  },
-  {
     "objectID": "teaching.html",
     "href": "teaching.html",
-    "title": "Nghiem Q. Huynh",
-    "section": "",
-    "text": "Fall 2022 & Fall 2021\nInstructor: Cormac O’Dea\n\n\n\n\n\nSpring 2022 & Spring 2021\nInstructor: Aleh Tsyvinski\n\n\n\n\n\nSummer 2021\nInstructor: Jonathan Hawkins-Pierot\n\n\n\n\n\nFall 2020\nInstructors: Ilse Lindenlaub and Marnix Amand"
-  },
-  {
-    "objectID": "teaching.html#yale-university---teaching-assistant",
-    "href": "teaching.html#yale-university---teaching-assistant",
     "title": "Nghiem Q. Huynh",
     "section": "",
     "text": "Fall 2022 & Fall 2021\nInstructor: Cormac O’Dea\n\n\n\n\n\nSpring 2022 & Spring 2021\nInstructor: Aleh Tsyvinski\n\n\n\n\n\nSummer 2021\nInstructor: Jonathan Hawkins-Pierot\n\n\n\n\n\nFall 2020\nInstructors: Ilse Lindenlaub and Marnix Amand"
@@ -25,13 +11,13 @@
     "href": "papers.html",
     "title": "Nghiem Q. Huynh",
     "section": "",
-    "text": "Abstract\n\n\n\n\n\nThis study quantifies the effects of two policies on spatial inequality in Vietnam, place-based tax incentives and the Ho Khau reform, which reduces migration barriers. To this end, I develop a dynamic spatial general equilibrium model incorporating workers’ and entrepreneurs’ choices. The model yields ambiguous effects of these policies on spatial inequality. Tax incentives attract firms but can reduce public services, while eased migration barriers can both offset and amplify the effects of place-based policies on spatial inequality. I leverage two decades of Vietnamese firm and household data, using difference-in-differences designs to identify two key factors influencing policy effects, including the spatial firm entry elasticity and migration costs associated with the Ho Khau reform. I find that place-based incentives raise spatial inequality, while migration reform has a more significant impact on reducing it.\n\n\n\n\n\n\n\n\npaper\n\n\n\n(with Ngoc T. Nguyen)\n\n\n\n\n\n\nAbstract\n\n\n\n\n\nThis study connects Vietnam’s elevated sex ratio at birth (SRB) to the 2001 US-Vietnam Bilateral Trade Agreement. Our model incorporates three major factors that influence SRB: income, relative returns based on the child’s sex, and fertility. The model presents twelve predictions, which are tested using large-scale repeated cross-sectional and panel surveys in a difference-in-difference design. The results indicate that mothers who experience larger tariff reductions tend to have a stronger preference for sons, work more, and desire fewer children. These findings suggest that fertility is the main driver of the elevated SRB. Overall, this paper highlights the interplay between cultural norms, maternal income, childcare, and fertility, revealing the unexpected demographic impact of trade policies.\nFull Paper (PDF)\nSSRN"
+    "text": "Abstract\n\n\n\n\n\nThis study quantifies the effects of two policies on spatial inequality in Vietnam, place-based tax incentives and the Ho Khau reform, which reduces migration barriers. To this end, I develop a dynamic spatial general equilibrium model incorporating workers’ and entrepreneurs’ choices. The model yields ambiguous effects of these policies on spatial inequality. Tax incentives attract firms but can reduce public services, while eased migration barriers can both offset and amplify the effects of place-based policies on spatial inequality. I leverage two decades of Vietnamese firm and household data, using difference-in-differences designs to identify two key factors influencing policy effects, including the spatial firm entry elasticity and migration costs associated with the Ho Khau reform. I find that place-based incentives raise spatial inequality, while migration reform has a more significant impact on reducing it.\n\n\n\n\n\n\n\n\n\n\n\n(with Ngoc T. Nguyen)\n\n\n\n\n\n\nAbstract\n\n\n\n\n\nThis study connects Vietnam’s elevated sex ratio at birth (SRB) to the 2001 US-Vietnam Bilateral Trade Agreement. Our model incorporates three major factors that influence SRB: income, relative returns based on the child’s sex, and fertility. The model presents twelve predictions, which are tested using large-scale repeated cross-sectional and panel surveys in a difference-in-difference design. The results indicate that mothers who experience larger tariff reductions tend to have a stronger preference for sons, work more, and desire fewer children. These findings suggest that fertility is the main driver of the elevated SRB. Overall, this paper highlights the interplay between cultural norms, maternal income, childcare, and fertility, revealing the unexpected demographic impact of trade policies.\nFull Paper (PDF)\nSSRN"
   },
   {
-    "objectID": "papers.html#working-papers",
-    "href": "papers.html#working-papers",
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "Nghiem Q. Huynh",
     "section": "",
-    "text": "Abstract\n\n\n\n\n\nThis study quantifies the effects of two policies on spatial inequality in Vietnam, place-based tax incentives and the Ho Khau reform, which reduces migration barriers. To this end, I develop a dynamic spatial general equilibrium model incorporating workers’ and entrepreneurs’ choices. The model yields ambiguous effects of these policies on spatial inequality. Tax incentives attract firms but can reduce public services, while eased migration barriers can both offset and amplify the effects of place-based policies on spatial inequality. I leverage two decades of Vietnamese firm and household data, using difference-in-differences designs to identify two key factors influencing policy effects, including the spatial firm entry elasticity and migration costs associated with the Ho Khau reform. I find that place-based incentives raise spatial inequality, while migration reform has a more significant impact on reducing it.\n\n\n\n\n\n\n\n\npaper\n\n\n\n(with Ngoc T. Nguyen)\n\n\n\n\n\n\nAbstract\n\n\n\n\n\nThis study connects Vietnam’s elevated sex ratio at birth (SRB) to the 2001 US-Vietnam Bilateral Trade Agreement. Our model incorporates three major factors that influence SRB: income, relative returns based on the child’s sex, and fertility. The model presents twelve predictions, which are tested using large-scale repeated cross-sectional and panel surveys in a difference-in-difference design. The results indicate that mothers who experience larger tariff reductions tend to have a stronger preference for sons, work more, and desire fewer children. These findings suggest that fertility is the main driver of the elevated SRB. Overall, this paper highlights the interplay between cultural norms, maternal income, childcare, and fertility, revealing the unexpected demographic impact of trade policies.\nFull Paper (PDF)\nSSRN"
+    "text": "My name is Nghiem Huynh, pronounced ‘Nim Hwin’.\nMy research focuses on Development Economics and International Trade.\nI am on the 2023-2024 job market.\nRead more about my research here and find my CV here.\nFor potential collaborations or inquiries, please reach out at nghiem.huynh@yale.edu"
   }
 ]

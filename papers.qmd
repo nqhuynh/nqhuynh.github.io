@@ -24,7 +24,7 @@ linkcolor: "#0F4D92"
 
 #### Place-based Policy, Migration Barriers, and Spatial Inequality \[JMP\]
 
-::: {.callout-caution collapse="true"}
+::: {.callout-caution collapse="false"}
 ## Abstract
 
 This study quantifies the effects of two policies on spatial inequality in Vietnam, place-based tax incentives and the Ho Khau reform, which reduces migration barriers. To this end, I develop a dynamic spatial general equilibrium model incorporating workers' and entrepreneurs' choices. The model yields ambiguous effects of these policies on spatial inequality. Tax incentives attract firms but can reduce public services, while eased migration barriers can both offset and amplify the effects of place-based policies on spatial inequality. I leverage two decades of Vietnamese firm and household data, using difference-in-differences designs to identify two key factors influencing policy effects, including the spatial firm entry elasticity and migration costs associated with the Ho Khau reform. I find that place-based incentives raise spatial inequality, while migration reform has a more significant impact on reducing it. 
