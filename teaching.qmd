@@ -6,27 +6,24 @@ toc: false
 
 ## Yale University - Teaching Assistant
 
-### Introductory Microeconomics (Econ 115)
+#### Introductory Microeconomics (Econ 115)
 
-- Fall 2022  & Fall 2021
-- Instructor: Prof. Cormac O'Dea
+-   Fall 2022 & Fall 2021
+-   Instructor: Prof. Cormac O'Dea
 
-### Introductory Macroeconomics (Econ 116)
+#### Introductory Macroeconomics (Econ 116)
 
-- Spring 2022 & Spring 2021
-- Instructor: Prof. Aleh Tsyvinski
+-   Spring 2022 & Spring 2021
+-   Instructor: Prof. Aleh Tsyvinski
 
+#### Intermediate Microeconomics (Econ 121)
 
-### Intermediate Microeconomics (Econ 121) 
+-   Summer 2021
+-   Instructor: Dr. Jonathan Hawkins-Pierot
 
-- Summer 2021
-- Instructor: Dr. Jonathan Hawkins-Pierot
+#### Intermediate Macroeconomics (Econ 122)
 
-
-
-### Intermediate Macroeconomics (Econ 122)
-
-- Fall 2020
-- Instructors: Prof. Ilse Lindenlaub and Dr. Marnix Amand
+-   Fall 2020
+-   Instructors: Prof. Ilse Lindenlaub and Dr. Marnix Amand
 
 <!-- ## Mentoring -->

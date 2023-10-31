@@ -20,9 +20,9 @@ callout-icon: false
 linkcolor: "#0F4D92"
 ---
 
-## Working papers
+### Working papers
 
-### Place-based Policy, Migration Barriers, and Spatial Inequality \[JMP\]
+#### Place-based Policy, Migration Barriers, and Spatial Inequality \[JMP\]
 
 ::: {.callout-caution collapse="true"}
 ## Abstract
@@ -42,7 +42,7 @@ This study quantifies the effects of two policies on spatial inequality in Vietn
 
 
 
-### [Why Does the Sex Ratio at Birth Rise? Evidence from Vietnam](papers/Sex_ratio_vn.pdf){target="_blank"}
+#### [Why Does the Sex Ratio at Birth Rise? Evidence from Vietnam](papers/Sex_ratio_vn.pdf){target="_blank"}
 
 (with Ngoc T. Nguyen)
 
