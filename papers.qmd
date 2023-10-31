@@ -29,7 +29,7 @@ linkcolor: "#0F4D92"
 
 This study quantifies the effects of two policies on spatial inequality in Vietnam, place-based tax incentives and the Ho Khau reform, which reduces migration barriers. To this end, I develop a dynamic spatial general equilibrium model incorporating workers' and entrepreneurs' choices. The model yields ambiguous effects of these policies on spatial inequality. Tax incentives attract firms but can reduce public services, while eased migration barriers can both offset and amplify the effects of place-based policies. I leverage two decades of Vietnamese firm and household data, using difference-in-differences designs to identify two key factors governing policy effects, including the firm entry elasticity and migration costs associated with the Ho Khau reform. I find that place-based incentives have a minimal impact on spatial inequality, while migration reform significantly lowers migration costs to poorer areas, boosting labor supply and firm entry, and increasing welfare by 4% there, versus a 1.5% rise in wealthier areas.
 
-[Full Paper (PDF)](papers/Huynh_Nghiem_JMP.pdf){target="_blank"}
+<!-- [Full Paper (PDF)](papers/Huynh_Nghiem_JMP.pdf){target="_blank"} -->
 
 <!-- #### Press Coverage -->
 
