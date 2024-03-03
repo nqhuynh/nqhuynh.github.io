@@ -14,7 +14,9 @@ about:
   #     href: https://twitter.com/nghiempact
 ---
 
-My name is Nghiem Huynh, pronounced 'Nim Hwin'. I am a Ph.D. candidate in Economics at Yale University currently on the 2023-2024 job market.
+My name is Nghiem Huynh, pronounced 'Nim Hwin'. I am a Ph.D. candidate in Economics at Yale University.
+
+I will be joining the Department of Economics at the University of Oklahoma as an Assistant Professor in July 2024.
 
 My research focuses on Development Economics and International Trade.
 
