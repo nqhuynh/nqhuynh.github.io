@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Nghiem Q. Huynh"
+  title: "Nghiêm Q. Huỳnh"
   page-footer: 
     #left: "© 2023, Nghiem Q. Huynh"
     right: "Made with [Quarto](https://quarto.org/)"
@@ -11,7 +11,7 @@ website:
       - icon: github
         href: https://github.com/nqhuynh
       - icon: twitter 
-        href: https://twitter.com/nghiempact 
+        href: https://twitter.com/nghiemqhuynh 
       - icon: linkedin
         href: https://www.linkedin.com/in/nghiemhuynh/
       # - icon: envelope
@@ -27,8 +27,6 @@ website:
         text: Home
       - href: papers.qmd
         text: Research
-      - href: teaching.qmd
-        text: Teaching
       - href: Huynh_Nghiem_CV.pdf
         text: CV
   google-analytics: "G-GHF16EY2G2"
