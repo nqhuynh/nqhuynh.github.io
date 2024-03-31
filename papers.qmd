@@ -20,7 +20,7 @@ callout-icon: false
 linkcolor: "#0F4D92"
 ---
 
-## Working papers
+### Working papers
 
 #### [Place-based Policy, Migration Barriers, and Spatial Inequality](papers/Huynh_Nghiem_JMP.pdf){target="_blank"}
 
