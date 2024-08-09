@@ -1,6 +1,6 @@
 ---
 # title: "Nghiem Q. Huynh" main-photo.jpeg
-image: 1.JPG
+image: 1.PNG
 about: 
   template: trestles
   image-width: 18em 
@@ -14,12 +14,12 @@ about:
   #     href: https://twitter.com/nghiempact
 ---
 
-My name is Nghiem Huynh /Nee-em Hwin/.
+Hello! My name is Nghiêm Q. Huỳnh (pronounced /Nee-em Hwin/).
 
-I am a Ph.D. candidate in Economics at Yale University and will be joining the Department of Economics at the University of Oklahoma as an Assistant Professor in July 2024.
+My research lies at the intersection of development economics, spatial economics, and international trade.
 
-My research focuses on Development Economics and International Trade.
+In 2024, I graduated with a PhD from Yale and joined the University of Oklahoma as an Assistant Professor.
 
-See my research [here](papers.qmd) and find my CV [here](Huynh_Nghiem_CV.pdf){target="_blank"}.
+Here is my [CV](Huynh_Nghiem_CV.pdf){target="_blank"}.
 
-Contact: [nghiem.huynh\@yale.edu]{.underline}
+Email: [nghiemqhuynh\@gmail.com]{.underline}
