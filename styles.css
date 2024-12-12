@@ -15,16 +15,5 @@ a:hover {
   text-decoration: underline; /* Add underline on hover */
 }
 
-/* Adjust the overall width of the main content */
-main {
-  max-width: 90%; /* Adjust this value as needed */
-  margin: auto;
-}
-
-/* Adjust the width of the text container */
-.quarto-about .about-text {
-  max-width: 8000px;
-  margin: auto;
-}
 
 

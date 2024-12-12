@@ -1,33 +1,23 @@
 ---
-# title: ""
+title: "Teaching"
 sidebar: true
 toc: false 
 ---
 
-## University of Oklahoma - Instructor
+**@ University of Oklahoma - Instructor**
 
-#### Intermediate Macroeconomics Theory (Econ 3133)
+-   Intermediate Macroeconomics (Undergraduate)
 
--   Fall 2024
+-   International Trade/ Spatial Economics (Graduate)
 
-## Yale University - Teaching Assistant
+**@ Yale University - TA** 
 
-#### Introductory Microeconomics (Econ 115)
+-   Introductory Microeconomics (Undergraduate)
 
--   Fall 2022 & Fall 2021
+-   Introductory Macroeconomics (Undergraduate)
 
-#### Introductory Macroeconomics (Econ 116)
+-   Intermediate Microeconomics (Undergraduate)
 
--   Spring 2023, Spring 2022, & Spring 2021
-
-#### Intermediate Microeconomics (Econ 121)
-
--   Summer 2021
-
-
-#### Intermediate Macroeconomics (Econ 122)
-
--   Fall 2020
-
+-   Intermediate Macroeconomics (Undergraduate)
 
 <!-- ## Mentoring -->
