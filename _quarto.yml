@@ -24,11 +24,13 @@ website:
     search: false
     right:
       - href: index.qmd
-        text: Home
+        text: "Home"
       - href: papers.qmd
-        text: Research
+        text: "Research"
+      - href: teaching.qmd
+        text: "Teaching"
       - href: Huynh_Nghiem_CV.pdf
-        text: CV
+        text: "CV"
   google-analytics: "G-GHF16EY2G2"
 format:
   html:

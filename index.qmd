@@ -1,6 +1,5 @@
 ---
-# title: "Nghiem Q. Huynh" main-photo.jpeg
-image: 1.PNG
+image: 1.JPG
 about: 
   template: trestles
   image-width: 18em 
@@ -11,15 +10,25 @@ about:
   #     href: https://github.com/nqhuynh
   #   - icon: twitter
   #     #text: twitter
-  #     href: https://twitter.com/nghiempact
+  #     href: https://twitter.com/nghiemqhuynh
+css: styles.css
+---
+### Welcome! 
+
+My name is Nghiêm Q. Huỳnh (*pronounced Nee-em Hwin*).
+
+I am an Assistant Professor in the [Economics Department at the University of Oklahoma](https://www.ou.edu/cas/economics). 
+
+My research focuses on urban economics,  international trade, and development economics, with an emphasis on understanding how policies affect inequality and economic development.
+
+I received my PhD in Economics from Yale University in 2024.  
+
+Here’s my [CV](Huynh_Nghiem_CV.pdf){target="_blank"}. 
+
+
 ---
 
-Hello! My name is Nghiêm Q. Huỳnh (pronounced /Nee-em Hwin/).
+### Get in Touch
+- 📧 Email: [nqh@ou.edu](mailto:nqh@ou.edu)  
 
-My research lies at the intersection of development economics, spatial economics, and international trade.
-
-In 2024, I graduated with a PhD from Yale and joined the University of Oklahoma as an Assistant Professor.
-
-Here is my [CV](Huynh_Nghiem_CV.pdf){target="_blank"}.
-
-Email: [nqh\@ou.edu]{.underline}
+You can also find me on [X](https://twitter.com/nghiemqhuynh) and [LinkedIn](https://linkedin.com/in/nghiemhuynh).  
