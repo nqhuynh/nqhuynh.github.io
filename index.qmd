@@ -17,7 +17,7 @@ css: styles.css
 
 My name is Nghiêm Q. Huỳnh (*pronounced Nee-em Hwin*), and I am an Assistant Professor in the [Economics Department at the University of Oklahoma](https://www.ou.edu/cas/economics). 
 
-My research focuses on urban economics,  international trade, and development economics, with a focus on understanding how policies affect inequality and economic development.
+My research focuses on urban economics,  international trade, and development economics, with an emphasis on understanding how policies affect inequality and economic development.
 
 I received my PhD in Economics from Yale University in May 2024.  
 
