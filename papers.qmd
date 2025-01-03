@@ -24,7 +24,7 @@ linkcolor: "#0F4D92"
 
 #### [Place-based Policy, Migration Barriers, and Spatial Inequality](papers/Huynh_Nghiem_JMP.pdf){target="_blank"}
 
-::: {.callout-caution collapse="true"}
+::: {.callout-note collapse="true"}
 ## Abstract
 
 This study quantifies the effects of place-based tax incentives and easing migration barriers on spatial inequality in Vietnam. I construct a dynamic spatial general equilibrium model incorporating firm dynamics, occupational choices, migration, congestion, and agglomeration. Leveraging policy variations and model-consistent equations, I identify firm entry elasticity and changes in migration costs. The place-based policy increases economic activity and welfare in targeted areas despite compromising public services. The household registration reform has a small impact on spatial welfare inequality. Combining migration cost reductions to central provinces with tax incentives to disadvantaged ones mitigates welfare losses and reduces spatial inequality more effectively than each policy alone.
@@ -42,15 +42,17 @@ This study quantifies the effects of place-based tax incentives and easing migra
 
 
 
-#### [Why Does the Sex Ratio at Birth Rise? Evidence from Vietnam](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4582123){target="_blank"}
+#### [Trade, Maternal Time Costs, and Sex Selection: Evidence from Vietnam](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4582123){target="_blank"}
 
-(with Ngoc T. Nguyen)
+(with Ngoc T. T. Nguyen)
 
-::: {.callout-caution collapse="true"}
+::: {.callout-note collapse="true"}
 ## Abstract
 
-This study connects Vietnam's elevated sex ratio at birth (SRB) to the 2001 US-Vietnam Bilateral Trade Agreement. Our model incorporates three major factors that influence SRB: income, relative returns based on the child's sex, and fertility. The model presents twelve predictions, which are tested using large-scale repeated cross-sectional and panel surveys in a difference-in-difference design. The results indicate that mothers who experience larger tariff reductions tend to have a stronger preference for sons, work more, and desire fewer children. These findings suggest that fertility is the main driver of the elevated SRB. Overall, this paper highlights the interplay between cultural norms, maternal income, childcare, and fertility, revealing the unexpected demographic impact of trade policies.
+How does economic development influence sex selection when parents face pressures from work, childcare, and son preference? We investigate this question in Vietnam using the 2001 trade liberalization. Our model integrates son preference into a quantity-quality framework with maternal childcare burdens to generate distinct predictions from competing theories. By exploiting tariff cuts across industries, we find that women in exposed industries have more male children, fewer births, and work more. The impacts stem from maternal exposure rather than fathers' industries or local markets, indicating that income, bargaining, or relative returns to daughters have little effect.
 
+[ [PDF] ](papers/SRB.pdf){target="_blank"} 
+[ [Appendix] ](papers/SRB_online_appendix.pdf){target="_blank"}
 :::
 
 
