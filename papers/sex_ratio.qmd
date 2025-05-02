@@ -1,8 +1,0 @@
----
-title: "Sex Ratio: Evidence from Vietnam"
-author: 
-    - w/ Ngoc T. Nguyen
-description: "Upcoming"
-# date: "2022/04/17"
-image: "srb-poster.png"
----

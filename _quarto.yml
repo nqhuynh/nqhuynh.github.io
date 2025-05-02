@@ -5,20 +5,20 @@ project:
 website:
   title: "Nghiêm Q. Huỳnh"
   page-footer: 
-    #left: "© 2023, Nghiem Q. Huynh"
+    # left: "© 2023, Nghiem Q. Huynh"
     right: "Made with [Quarto](https://quarto.org/)"
     center: 
       - icon: github
         href: https://github.com/nqhuynh
-      - icon: twitter 
-        href: https://twitter.com/nghiemqhuynh 
+      # - icon: twitter 
+      #   href: https://X.com/nghiemqhuynh 
       - icon: linkedin
         href: https://www.linkedin.com/in/nghiemhuynh/
-      # - icon: envelope
-      #   href: mailto:nghiem.huynh@yale.edu
+      - icon: envelope
+        href: mailto:nqh@ou.edu
   sidebar: false
   navbar:
-    background: "white"
+    background: "#f0f0f0"
     foreground: "black"
     pinned: true
     search: false
@@ -37,7 +37,7 @@ format:
     theme: cosmo
     mainfont: 'Open Sans'
     # monofont: 
-    linkcolor: "#0F4D92"
+    linkcolor: "#841617"
     fontcolor: "black"
     monobackgroundcolor:  "white"
     backgroundcolor: "white"

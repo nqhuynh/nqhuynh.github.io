@@ -1,58 +1,33 @@
 ---
-# title: ""
-# listing:
-#   contents: papers
-#   type: default
-#   sort: "date desc"
-#   fields: [image, title, description] #author, description date, 
-#   field-display-names:
-#     date: "Last updated"
-#   max-description-length: 175
-#   image-align: left
+title: "Research"
+page-layout: article
+sidebar: false
+toc: false
+search: true
+listing: 
+  - id: working-papers
+    contents: "working_papers/*.qmd"
+    type: table
+    table-hover: true
+    table-striped: false
+    filter-ui: false
+    sort-ui: false
+    sort: "date desc"
+    fields: [title, authors, date]
+    field-display-names: 
+      title: "Title"
+      authors: "Co-authors"
+      date: "Date"
+      tags: "Tags"
+      status: "Status"
+    date-format: "YYYY"
 format:
   html:
-    link-external-icon: false
-sidebar: true
-toc: false 
-search: true
-callout-appearance: simple
-callout-icon: false
-linkcolor: "#0F4D92"
+    css: styles.css
 ---
 
+
+
 ### Working papers
-
-#### [Place-based Policy, Migration Barriers, and Spatial Inequality](papers/Huynh_Nghiem_JMP.pdf){target="_blank"}
-
-::: {.callout-note collapse="true"}
-## Abstract
-
-This study quantifies the effects of place-based tax incentives and easing migration barriers on spatial inequality in Vietnam. I construct a dynamic spatial general equilibrium model incorporating firm dynamics, occupational choices, migration, congestion, and agglomeration. Leveraging policy variations and model-consistent equations, I identify firm entry elasticity and changes in migration costs. The place-based policy increases economic activity and welfare in targeted areas despite compromising public services. The household registration reform has a small impact on spatial welfare inequality. Combining migration cost reductions to central provinces with tax incentives to disadvantaged ones mitigates welfare losses and reduces spatial inequality more effectively than each policy alone.
-
-<!-- [Full Paper (PDF)](papers/Huynh_Nghiem_JMP.pdf){target="_blank"} -->
-
-<!-- #### Press Coverage -->
-
-<!-- 1. [Title of Press Coverage 1](link-to-press-coverage-1) -->
-
-<!-- 2. [Title of Press Coverage 2](link-to-press-coverage-2) -->
-
-<!-- 3. [Title of Press Coverage 3](link-to-press-coverage-3) -->
+:::{#working-papers}
 :::
-
-
-
-#### [Trade, Maternal Time Costs, and Sex Selection: Evidence from Vietnam](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4582123){target="_blank"}
-
-(with Ngoc T. T. Nguyen)
-
-::: {.callout-note collapse="true"}
-## Abstract
-
-How does economic development influence sex selection when parents face pressures from work, childcare, and son preference? We investigate this question in Vietnam using the 2001 trade liberalization. Our model integrates son preference into a quantity-quality framework with maternal childcare burdens to generate distinct predictions from competing theories. By exploiting tariff cuts across industries, we find that women in exposed industries have more male children, fewer births, and work more. The impacts stem from maternal exposure rather than fathers' industries or local markets, indicating that income, bargaining, or relative returns to daughters have little effect.
-
-[ [PDF] ](papers/SRB.pdf){target="_blank"} 
-[ [Appendix] ](papers/SRB_online_appendix.pdf){target="_blank"}
-:::
-
-

@@ -15,12 +15,17 @@ css: styles.css
 ---
 
 
-My name is Nghiêm Q. Huỳnh (*pronounced Nee-em Hwin*), and I am an Assistant Professor in the [Economics Department at the University of Oklahoma](https://www.ou.edu/cas/economics). 
+My name is Nghiêm Q. Huỳnh. \
+<span style="font-size:90%;">(pronounced Nee‑em Hwin)</span>
 
-My research focuses on urban economics,  international trade, and development economics, with an emphasis on understanding how policies affect inequality and economic development.
+I am an Assistant Professor of Economics at the [University of Oklahoma (OU)](https://www.ou.edu/cas/economics). 
+
+My research focuses on spatial economics,  international trade, and development economics. 
 
 I received my PhD in Economics from Yale University in May 2024.  
 
 Here’s my [CV](Huynh_Nghiem_CV.pdf){target="_blank"}. 
 
-To get in touch, email me at [nqh@ou.edu](mailto:nqh@ou.edu). You can also find me on [X](https://twitter.com/nghiemqhuynh) and [LinkedIn](https://linkedin.com/in/nghiemhuynh).  
+Email: [nqh@ou.edu](mailto:nqh@ou.edu)
+
+<!-- You can also find me on [X](https://twitter.com/nghiemqhuynh) and [LinkedIn](https://linkedin.com/in/nghiemhuynh).   -->

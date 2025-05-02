@@ -7,13 +7,49 @@
 }
 */
 
+/* --- global body links (already have this) --- */
+a,
+a:visited {                       /* visited state, too */
+  color: #841617;
+}
+a:hover,
+a:focus  {
+  color: #841617;
+}
 
+/* --- navbar links --- */
+.navbar .nav-link,
+.navbar .nav-link:visited {
+  color: black !important;      /* override Cosmo */
+}
 
-/* Add underline or show symbols only to hyperlinks on hover */
-a:hover {
-  color: #0F4D92; /* Adjust link hover color */
-  text-decoration: underline; /* Add underline on hover */
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: #a0221c !important;      /* tweak hover shade if you like */
+}
+
+/* active (the page you’re on) */
+.navbar .nav-link.active,
+.navbar .nav-link.show {
+  color: #841617 !important;      /* text */
+  background-color: #black !important;  /* pill/underline */
 }
 
 
+/* Style PDF links in research table */
+.listing-links a {
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #0066cc;
+}
+
+.listing-links a:hover {
+  text-decoration: underline;
+}
+
+/* Style for icons in links */
+.bi {
+  margin-right: 3px;
+}
 

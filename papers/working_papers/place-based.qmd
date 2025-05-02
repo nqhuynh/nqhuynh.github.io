@@ -1,0 +1,35 @@
+---
+title: "Place‑based Policy, Migration Barriers, and Spatial Inequality"
+authors: ""
+date: 2024-09            
+categories: ["Working paper"]
+description: >
+  
+links:
+  # - text: "PDF"
+  #   icon: file-pdf
+  #   href: Huynh_Nghiem_JMP.pdf
+  # - text: "Slides"
+  #   href: slides/huynh_spatial_ineq.pdf
+  # - text: "Replication code"
+  #   href: https://github.com/nqhuynh/spatial‑ineq
+published-title: "Updated"  # This changes the label
+date-format: "MM-YYYY"
+status: "" 
+language: 
+  title-block-author-single: "Co-authors"
+format:
+  html:
+    # hide everything except the abstract when users land on the page itself
+    code-fold: true
+---
+
+## Abstract
+
+This study quantifies the effects of place-based tax incentives and easing migration barriers on spatial inequality in Vietnam. I construct a dynamic spatial general equilibrium model incorporating firm dynamics, occupational choices, migration, congestion, and agglomeration. Leveraging policy variations and model-consistent equations, I identify firm entry elasticity and changes in migration costs. The place-based policy increases economic activity and welfare in targeted areas despite compromising public services. The household registration reform has a small impact on spatial welfare inequality. Combining migration cost reductions to central provinces with tax incentives to disadvantaged ones mitigates welfare losses and reduces spatial inequality more effectively than each policy alone.
+
+
+<div style="margin-bottom: 1rem; display: flex; gap: 10px;">
+  <a href="Huynh_Nghiem_JMP.pdf" target="_blank" style="display: inline-block; padding: 2px 8px; border: 1px solid #ccc; text-decoration: none; font-size: 1rem; color: white; background-color: #841617; text-transform: uppercase;">PDF</a>
+  
+
