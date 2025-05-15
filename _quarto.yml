@@ -25,7 +25,7 @@ website:
     right:
       - href: index.qmd
         text: "Home"
-      - href: papers.qmd
+      - href: research.qmd
         text: "Research"
       - href: teaching.qmd
         text: "Teaching"

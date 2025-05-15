@@ -6,7 +6,7 @@ toc: false
 search: true
 listing: 
   - id: working-papers
-    contents: "working_papers/*.qmd"
+    contents: "papers/*.qmd"
     type: table
     table-hover: true
     table-striped: false
@@ -26,8 +26,7 @@ format:
     css: styles.css
 ---
 
-
-
 ### Working papers
-:::{#working-papers}
+
+::: {#working-papers}
 :::
