@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 /* Remove underline from all anchor elements */
@@ -28,13 +27,33 @@ a:focus  {
   color: #a0221c !important;      /* tweak hover shade if you like */
 }
 
-/* active (the page you’re on) */
+/* active (the page you're on) */
 .navbar .nav-link.active,
 .navbar .nav-link.show {
   color: #841617 !important;      /* text */
   background-color: #black !important;  /* pill/underline */
 }
 
+/* Research table column widths */
+#working-papers table th:nth-child(1),
+#working-papers table td:nth-child(1) {
+  width: 50%;  /* Title column */
+}
+
+#working-papers table th:nth-child(2),
+#working-papers table td:nth-child(2) {
+  width: 20%;  /* Authors column */
+}
+
+#working-papers table th:nth-child(3),
+#working-papers table td:nth-child(3) {
+  width: 8%;  /* Date column */
+}
+
+#working-papers table th:nth-child(4),
+#working-papers table td:nth-child(4) {
+  width: 12%;  /* Status column */
+}
 
 /* Style PDF links in research table */
 .listing-links a {
