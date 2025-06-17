@@ -14,7 +14,7 @@ links:
     href: SRB.pdf
   # - text: "Slides"
   #   href: slides/huynh_spatial_ineq.pdf
-  # - text: "Replication code"
+  # - text: "Replication code"
   #   href: https://github.com/nqhuynh/spatial‑ineq
 published-title: "Updated"
 date-format: "MM-YYYY"
@@ -30,8 +30,17 @@ format:
 
 We study how trade liberalization affects sex selection in a son-preferring society. Using the Vietnam–US 2001 trade agreement as a natural experiment, we exploit industry-level tariff cuts in a difference-in-differences framework. We find that women in exposed industries are more likely to have male children, work more, and have fewer births—effects driven solely by maternal, not paternal, exposure. A quantity-quality model with maternal time costs explains these patterns. Our findings reveal that rising maternal opportunity costs, rather than income or relative returns effects, can increase sex selection during economic transitions.
 
+
 ::: {style="margin-bottom: 1rem; display: flex; gap: 10px;"}
 <a href="SRB.pdf" target="_blank" style="display: inline-block; padding: 2px 8px; border: 1px solid #ccc; text-decoration: none; font-size: 1rem; color: white; background-color: #841617; text-transform: uppercase;">PDF</a>
 
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4582123" target="_blank" style="display: inline-block; padding: 2px 8px; border: 1px solid #ccc; text-decoration: none; font-size: 1rem; color: white; background-color: #841617; text-transform: uppercase;">SSRN</a>
+:::
+
+## Research Summary in Vietnamese 
+
+Bài tóm tắt nghiên cứu dưới đây bằng tiếng Việt được đăng tải bởi Đại học Fulbright Việt Nam.
+
+::: {style="margin-bottom: 1rem; display: flex; gap: 10px;"}
+<a href="https://fsppm.fulbright.edu.vn/vn/tin-tuc-su-kien/tin-tuc-fsppm/moi-lien-ket-giua-thuong-mai-quoc-te-va-ty-le-gioi-tinh-tai-viet-nam/?fbclid=IwY2xjawK-sQBleHRuA2FlbQIxMQABHrdnfUbCqXwge8jYYFSQ2XRQJRvq0lhTOikjJ9yniSC_PX7fQCpl2bzVdiv5_aem_8Fpxi3WNIa0huxFQlCO04Q" target="_blank" style="display: inline-block; padding: 2px 8px; border: 1px solid #ccc; text-decoration: none; font-size: 1rem; color: white; background-color: #841617;">Link</a>
 :::

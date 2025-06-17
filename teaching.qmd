@@ -4,13 +4,13 @@ sidebar: true
 toc: false 
 ---
 
-**@ University of Oklahoma - Instructor**
+**\@ University of Oklahoma - Instructor**
 
 -   Intermediate Macroeconomics (Undergraduate)
 
--   International Trade/ Spatial Economics (Graduate)
+-   International Trade/ Spatial Economics (PhD)
 
-**@ Yale University - TA** 
+**\@ Yale University - TA**
 
 -   Introductory Microeconomics (Undergraduate)
 
@@ -19,5 +19,3 @@ toc: false
 -   Intermediate Microeconomics (Undergraduate)
 
 -   Intermediate Macroeconomics (Undergraduate)
-
-<!-- ## Mentoring -->
