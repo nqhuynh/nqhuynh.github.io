@@ -6,7 +6,7 @@ website:
   title: "Nghiêm Q. Huỳnh"
   page-footer: 
     # left: "© 2023, Nghiem Q. Huynh"
-    right: "Made with [Quarto](https://quarto.org/)"
+    # right: "Made with [Quarto](https://quarto.org/)"
     center: 
       - icon: github
         href: https://github.com/nqhuynh
@@ -14,12 +14,12 @@ website:
       #   href: https://X.com/nghiemqhuynh 
       - icon: linkedin
         href: https://www.linkedin.com/in/nghiemhuynh/
-      - icon: envelope
-        href: mailto:nqh@ou.edu
+      # - icon: envelope
+      #   href: "mailto:nqh@ou.edu"
   sidebar: false
   navbar:
-    background: "#f0f0f0"
-    foreground: "black"
+    background: "transparent"
+    foreground: "#666"
     pinned: true
     search: false
     right:
@@ -30,12 +30,12 @@ website:
       - href: teaching.qmd
         text: "Teaching"
       - href: Huynh_Nghiem_CV.pdf
-        text: "CV"
+        text: "C.V."
   google-analytics: "G-GHF16EY2G2"
 format:
   html:
     theme: cosmo
-    mainfont: 'Open Sans'
+    mainfont: 'Roboto'
     # monofont: 
     linkcolor: "#841617"
     fontcolor: "black"
@@ -44,6 +44,7 @@ format:
     link-external-newwindow: true
     css: styles.css
     toc: false
+    anchor-sections: false
     # include-in-header: header.html
 
 editor: visual

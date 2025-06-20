@@ -1,4 +1,185 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+
+/* Set the base font size for the entire document */
+html {
+  font-size: 18px; /* This is now the single control for all font sizes */
+}
+
+/* Modern typography and layout improvements */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem; /* This will now be 18px, based on the html setting */
+  line-height: 1.6;
+  color: #1a1a1a;
+}
+
+/* Cleaner headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  color: #000;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: none !important;
+  text-decoration: none !important;
+}
+
+/* Make the main page title non-bold */
+h1.title {
+  font-weight: 400;
+}
+
+/* Make the h3 non-bold */
+h3 {
+  font-weight: 400;
+}
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.3rem; }
+h5 { font-size: 1.1rem; }
+h6 { font-size: 1rem; }
+
+/* Remove any bottom borders from headings */
+h1::after,
+h2::after,
+h3::after,
+h4::after,
+h5::after,
+h6::after {
+  content: none !important;
+}
+
+/* Clean, minimal navbar */
+.navbar {
+  background: transparent !important;
+  /* border-bottom: 1px solid #ddd; */
+  padding: 1rem 0;
+}
+
+.navbar-brand {
+  font-weight: 400;
+  color: #000 !important;
+  font-size: 1.1rem; /* Matched to nav-link size */
+  padding-top: 0;    /* Adjusted for vertical alignment */
+  padding-bottom: 0; /* Adjusted for vertical alignment */
+}
+
+.navbar .nav-link {
+  color: #444 !important;
+  font-weight: 400;
+  font-size: 1.1rem;
+  transition: color 0.2s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #841617 !important;
+}
+
+/* Modern link styling */
+a {
+  color: #841617;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #a0221c;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #841617;
+}
+
+/* Important links with emphasis */
+/* a[href*=".pdf"],
+a[href*="mailto:"],
+a[href*="github.com"],
+a[href*="linkedin.com"] {
+  color: #841617;
+  font-weight: 500;
+} */
+/* 
+a[href*=".pdf"]:hover,
+a[href*="mailto:"]:hover,
+a[href*="github.com"]:hover,
+a[href*="linkedin.com"]:hover {
+  color: #a0221c;
+  text-decoration: underline;
+} */
+
+/* Better spacing and layout */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Clean table styling */
+.table {
+  border: none;
+  font-size: 1rem;
+}
+
+.table th {
+  border-top: none;
+  border-bottom: 2px solid #ddd;
+  font-weight: 500;
+  color: #000;
+  padding: 1rem 0.5rem;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif; /* Ensure consistent font */
+}
+
+.table td {
+  border-top: none;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 1rem 0.5rem;
+  vertical-align: middle;
+  font-size: 1rem;
+}
+
+/* Modern footer */
+.page-footer {
+  border-top: 1px solid #ddd;
+  padding: 2rem 0;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.page-footer a {
+  color: #444;
+  margin: 0 0.5rem;
+  font-size: 1.3rem;
+}
+
+.page-footer a:hover {
+  color: #000;
+}
+
+/* Better content spacing */
+p {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  text-align: left;
+  text-justify: inter-word;
+}
+
+/* Reduce space between a paragraph and a following list */
+p:has(+ ul) {
+  margin-bottom: 0.5rem;
+}
+
+/* Clean button styling */
+.btn {
+  border-radius: 4px;
+  font-weight: 400;
+  padding: 0.5rem 1rem;
+  transition: all 0.2s ease;
+  font-size: 1rem;
+}
 
 /* Remove underline from all anchor elements */
 /*a {
@@ -6,32 +187,29 @@
 }
 */
 
-/* --- global body links (already have this) --- */
-a,
-a:visited {                       /* visited state, too */
-  color: #841617;
-}
-a:hover,
-a:focus  {
-  color: #841617;
-}
-
 /* --- navbar links --- */
 .navbar .nav-link,
 .navbar .nav-link:visited {
-  color: black !important;      /* override Cosmo */
+  color: #444 !important;      /* override Cosmo */
 }
 
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
-  color: #a0221c !important;      /* tweak hover shade if you like */
+  color: #000 !important;      /* tweak hover shade if you like */
 }
 
 /* active (the page you're on) */
 .navbar .nav-link.active,
 .navbar .nav-link.show {
-  color: #841617 !important;      /* text */
-  background-color: #black !important;  /* pill/underline */
+  color: #000 !important;      /* text */
+  background-color: transparent !important;  /* pill/underline */
+}
+
+/* Ensure website title doesn't inherit link colors */
+.navbar-brand,
+.navbar-brand:hover,
+.navbar-brand:focus {
+  color: #000 !important;
 }
 
 /* Research table column widths */
@@ -60,15 +238,59 @@ a:focus  {
   display: inline-block;
   margin-right: 10px;
   text-decoration: none;
-  color: #0066cc;
+  color: #841617;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .listing-links a:hover {
+  color: #a0221c;
   text-decoration: underline;
 }
 
 /* Style for icons in links */
 .bi {
   margin-right: 3px;
+}
+
+/* Styling for the 'View Details' link in the research table */
+#working-papers .listing-details a,
+#working-papers .listing-details a:visited {
+  color: #841617 !important; /* Red for the details link */
+  font-weight: 500;
+  text-decoration: none !important;
+}
+
+#working-papers .listing-details a:hover {
+  color: #a0221c !important; /* Darker red on hover */
+  text-decoration: underline !important;
+}
+
+/* Fix for bullet point size and spacing */
+ul {
+  padding-left: 15px; /* Adjust left padding for alignment */
+  margin-top: 0.25rem; /* Reduce top margin to tighten space */
+}
+
+li {
+  margin-bottom: 0.25rem; /* Tighter vertical spacing between bullet points */
+  font-size: 1rem;      /* Ensure bullet text matches paragraph text size */
+}
+
+li::marker {
+  font-size: 0.8em; /* Make the bullet point slightly smaller */
+}
+
+
+/* Make footer icons black */
+footer a,
+footer a:visited,
+footer a:hover,
+footer a:focus,
+.navbar-footer a,
+.navbar-footer a:visited,
+.navbar-footer a:hover,
+.navbar-footer a:focus {
+  color: black !important;
 }
 

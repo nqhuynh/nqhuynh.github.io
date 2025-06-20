@@ -13,20 +13,20 @@ listing:
     filter-ui: false
     sort-ui: false
     sort: "date desc"
-    fields: [title, authors, date]
+    fields: [paper-title, authors, date, details]
     field-display-names: 
-      title: "Title"
+      paper-title: "Title"
       authors: "Co-authors"
-      date: "Date"
-      tags: "Tags"
-      status: "Status"
+      date: "Year"
+      details: "Details"
     date-format: "YYYY"
 format:
   html:
     css: styles.css
+    anchor-sections: false
 ---
 
-### Working papers
+### Working Papers
 
 ::: {#working-papers}
 :::
