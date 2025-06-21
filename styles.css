@@ -54,7 +54,7 @@ h6::after {
 /* Clean, minimal navbar */
 .navbar {
   background: transparent !important;
-  /* border-bottom: 1px solid #ddd; */
+  border-bottom: 1px solid #ddd;
   padding: 1rem 0;
 }
 
