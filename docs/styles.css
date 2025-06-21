@@ -268,29 +268,77 @@ p:has(+ ul) {
 
 /* Fix for bullet point size and spacing */
 ul {
-  padding-left: 15px; /* Adjust left padding for alignment */
-  margin-top: 0.25rem; /* Reduce top margin to tighten space */
+  list-style: none; /* Removes default bullets */
+  padding-left: 10px;
+  /* text-align: center; */ /* This was causing the issue on mobile */
 }
 
 li {
-  margin-bottom: 0.25rem; /* Tighter vertical spacing between bullet points */
-  font-size: 1rem;      /* Ensure bullet text matches paragraph text size */
+  position: relative;
+  padding-left: 10px; /* Space for custom bullet */
+  margin-bottom: 0.5rem;
+  text-align: left;
+  font-size: 1rem;
 }
 
 li::marker {
-  font-size: 0.8em; /* Make the bullet point slightly smaller */
+  color: black; 
+  content: '•';
+  position: absolute;
+  left: 0;
 }
 
+/* Style for nested list items */
+li li {
+  margin-top: 0.25rem;
+}
 
-/* Make footer icons black */
+li li::marker {
+  content: '◦'; /* Use a circle for second-level bullets */
+}
+
+/* Remove bullet points from navbar */
+.navbar ul {
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.navbar li {
+  padding-left: 0 !important;
+  position: static; /* Override relative positioning */
+}
+
+.navbar li::marker {
+  content: none !important;
+}
+
+/* Remove bullet points from footer */
+footer ul {
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+footer li {
+  padding-left: 0 !important;
+}
+
+footer li::marker {
+  content: none !important;
+}
+
+/* --- Mobile-specific styles --- */
+@media (max-width: 767px) {
+  .navbar {
+    background: #fff !important; /* White background on mobile */
+    border-bottom: 1px solid #ddd;
+  }
+}
+
+/* --- Footer Social Icons --- */
 footer a,
-footer a:visited,
-footer a:hover,
-footer a:focus,
-.navbar-footer a,
-.navbar-footer a:visited,
-.navbar-footer a:hover,
-.navbar-footer a:focus {
+footer a:visited {
   color: black !important;
 }
 
