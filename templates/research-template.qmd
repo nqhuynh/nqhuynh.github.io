@@ -1,0 +1,155 @@
+---
+title: "Research"
+page-layout: article
+sidebar: false
+toc: false
+search: true
+format:
+  html:
+    css: styles.css
+    anchor-sections: false
+---
+
+```{=html}
+<script>
+function toggleAbstract(id) {
+  // Close any open citation first
+  var citationId = id.replace('abstract', 'citation');
+  var citationElement = document.getElementById(citationId);
+  if (citationElement && citationElement.style.display === "block") {
+    citationElement.style.display = "none";
+    updateButtonText(citationId.replace('citation', 'cite-btn'), false);
+  }
+  
+  var element = document.getElementById(id);
+  var isOpen = element.style.display === "block";
+  
+  if (!isOpen) {
+    element.style.display = "block";
+    updateButtonText(id.replace('abstract', 'abs-btn'), true);
+  } else {
+    element.style.display = "none";
+    updateButtonText(id.replace('abstract', 'abs-btn'), false);
+  }
+}
+
+function toggleCitation(id) {
+  // Close any open abstract first
+  var abstractId = id.replace('citation', 'abstract');
+  var abstractElement = document.getElementById(abstractId);
+  if (abstractElement && abstractElement.style.display === "block") {
+    abstractElement.style.display = "none";
+    updateButtonText(abstractId.replace('abstract', 'abs-btn'), false);
+  }
+  
+  var element = document.getElementById(id);
+  var isOpen = element.style.display === "block";
+  
+  if (!isOpen) {
+    element.style.display = "block";
+    updateButtonText(id.replace('citation', 'cite-btn'), true);
+  } else {
+    element.style.display = "none";
+    updateButtonText(id.replace('citation', 'cite-btn'), false);
+  }
+}
+
+function updateButtonText(buttonId, isOpen) {
+  var button = document.getElementById(buttonId);
+  if (button) {
+    if (buttonId.includes('abs-btn')) {
+      button.innerHTML = isOpen ? "Abstract ˄" : "Abstract ˅";
+    } else if (buttonId.includes('cite-btn')) {
+      button.innerHTML = isOpen ? "Citation ˄" : "Citation ˅";
+    }
+  }
+}
+</script>
+```
+
+My research focuses on spatial economics, migration, and place-based policies. I study how government policies affect migration patterns and spatial inequality, using dynamic spatial general equilibrium models and policy-induced variations to understand the effectiveness of different policy approaches.
+
+## Working Papers
+
+**Paper Title Goes Here**\
+*Author Name(s)*\
+[Working Paper]{style="background-color: #d1ecf1; color: #0c5460; padding: 2px 8px; border-radius: 12px; font-size: 0.85rem; font-weight: 500;"}
+
+::: {style="margin: 0.75rem 0; display: flex; gap: 15px; flex-wrap: wrap; align-items: center;"}
+<a href="link-to-pdf.pdf" target="_blank" style="color: #007acc; text-decoration: none; font-size: 0.9rem;">PDF</a> [·]{style="color: #999;"} <a href="link-to-ssrn" target="_blank" style="color: #007acc; text-decoration: none; font-size: 0.9rem;">SSRN</a> [·]{style="color: #999;"} [Abstract ˅]{#abs-btn1 onclick="toggleAbstract('abstract1')" style="color: #007acc; cursor: pointer; font-size: 0.9rem;"} [·]{style="color: #999;"} [Citation ˅]{#cite-btn1 onclick="toggleCitation('citation1')" style="color: #007acc; cursor: pointer; font-size: 0.9rem;"}
+:::
+
+::: {#abstract1 style="display: none; margin-top: 1rem; padding: 1rem; background-color: #f8f9fa; border-radius: 4px; border-left: 3px solid #007acc;"}
+Your abstract text goes here...
+:::
+
+::: {#citation1 style="display: none; margin-top: 1rem; padding: 1rem; background-color: #f8f9fa; border-radius: 4px; border-left: 3px solid #6c757d;"}
+``` bibtex
+@unpublished{AuthorYear,
+    Author = {Your Name},
+    Note = {Working paper},
+    Title = {Paper Title},
+    Year = {2025}
+}
+```
+:::
+
+------------------------------------------------------------------------
+
+## Published Articles
+
+**Published Paper Title**\
+*Author Name(s)*\
+[Journal Name, Year]{style="background-color: #cce5ff; color: #004085; padding: 2px 8px; border-radius: 12px; font-size: 0.85rem; font-weight: 600;"}
+
+::: {style="margin: 0.75rem 0; display: flex; gap: 15px; flex-wrap: wrap; align-items: center;"}
+<a href="link-to-pdf.pdf" target="_blank" style="color: #007acc; text-decoration: none; font-size: 0.9rem;">PDF</a> [·]{style="color: #999;"} <a href="publisher-link" target="_blank" style="color: #007acc; text-decoration: none; font-size: 0.9rem;">Publisher</a> [·]{style="color: #999;"} <a href="data-link" target="_blank" style="color: #007acc; text-decoration: none; font-size: 0.9rem;">Data</a> [·]{style="color: #999;"} [Abstract ˅]{#abs-btn2 onclick="toggleAbstract('abstract2')" style="color: #007acc; cursor: pointer; font-size: 0.9rem;"} [·]{style="color: #999;"} [Citation ˅]{#cite-btn2 onclick="toggleCitation('citation2')" style="color: #007acc; cursor: pointer; font-size: 0.9rem;"}
+:::
+
+::: {style="margin: 0.5rem 0; display: flex; gap: 15px; flex-wrap: wrap; align-items: center;"}
+[Media:]{style="color: #666; font-size: 0.85rem; font-style: italic;"} <a href="media-link" target="_blank" style="color: #17a2b8; text-decoration: none; font-size: 0.85rem;">VoxEU Column</a> [·]{style="color: #999;"} <a href="policy-brief" target="_blank" style="color: #17a2b8; text-decoration: none; font-size: 0.85rem;">Policy Brief</a>
+:::
+
+::: {#abstract2 style="display: none; margin-top: 1rem; padding: 1rem; background-color: #f8f9fa; border-radius: 4px; border-left: 3px solid #007acc;"}
+Abstract for published paper...
+:::
+
+::: {#citation2 style="display: none; margin-top: 1rem; padding: 1rem; background-color: #f8f9fa; border-radius: 4px; border-left: 3px solid #6c757d;"}
+``` bibtex
+@article{AuthorYear,
+    Author = {Your Name},
+    Title = {Paper Title},
+    Journal = {Journal Name},
+    Year = {2024},
+    Volume = {1},
+    Number = {1},
+    Pages = {1--20}
+}
+```
+:::
+
+------------------------------------------------------------------------
+
+## Status Badge Reference
+
+<!-- Copy and paste these status badges as needed: -->
+
+<!-- Working Paper -->
+
+[Working Paper]{style="background-color: #d1ecf1; color: #0c5460; padding: 2px 8px; border-radius: 12px; font-size: 0.85rem; font-weight: 500;"}
+
+<!-- Under Review -->
+
+[Under Review]{style="background-color: #fff3cd; color: #856404; padding: 2px 8px; border-radius: 12px; font-size: 0.85rem; font-weight: 500;"}
+
+<!-- Revise & Resubmit -->
+
+[Revise & Resubmit at Journal Name]{style="background-color: #f8d7da; color: #721c24; padding: 2px 8px; border-radius: 12px; font-size: 0.85rem; font-weight: 500;"}
+
+<!-- Accepted -->
+
+[Accepted at Journal Name]{style="background-color: #d4edda; color: #155724; padding: 2px 8px; border-radius: 12px; font-size: 0.85rem; font-weight: 500;"}
+
+<!-- Published -->
+
+[Journal Name, Year]{style="background-color: #cce5ff; color: #004085; padding: 2px 8px; border-radius: 12px; font-size: 0.85rem; font-weight: 600;"}

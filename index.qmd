@@ -15,17 +15,15 @@ about:
 css: styles.css
 ---
 
-I am an Assistant Professor in the [Department of Economics at the University of Oklahoma](https://www.ou.edu/cas/economics).
+I am an Assistant Professor in the Department of Economics at the [University of Oklahoma](https://www.ou.edu/cas/economics).
 
-My research interests include:
+I am interested in spatial and development economics. I study how large-scale policy changes such as tax incentives and migration policies affect overall welfare and economic equity. 
 
--   Spatial economics
--   International trade
--   Development economics
+My papers are on my [research page](/research.qmd), and my CV is [here](Huynh_Nghiem_CV.pdf){target="_blank"}.
 
-Please see my [Curriculum Vitae](Huynh_Nghiem_CV.pdf){target="_blank"} for more details. I can be reached at nqh\@ou.edu.
+I completed my PhD in Economics at Yale University in 2024. 
 
-<!-- You can also find me on [X](https://twitter.com/nghiemqhuynh) and [LinkedIn](https://linkedin.com/in/nghiemhuynh).   -->
+I can be reached at [nqh@ou.edu]{style="color: #333; text-decoration: none; border-bottom: 1px dotted #999;"}.
 
 <p style="font-size: 1rem; color: #666; font-style: italic; text-align: left; margin-top: 2rem;">
 My name is pronounced Nghiêm (Nee-em) Huỳnh (Hwin)

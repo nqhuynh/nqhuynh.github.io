@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Trade, Maternal Time Costs, and Sex Selection: Evidence from Vietnam – Nghiêm Q. Huỳnh</title>
+<title>Research – Nghiêm Q. Huỳnh</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -77,6 +112,7 @@ gtag('config', 'G-GHF16EY2G2', { 'anonymize_ip': true});
 
 
 <link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -128,29 +164,14 @@ gtag('config', 'G-GHF16EY2G2', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Trade, Maternal Time Costs, and Sex Selection: Evidence from Vietnam</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">Working paper</div>
-  </div>
-  </div>
+<h1 class="title">Research</h1>
+</div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Co-authors</div>
-    <div class="quarto-title-meta-contents">
-             <p>Ngoc T. T. Nguyen </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Updated</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">05-2025</p>
-    </div>
-  </div>
   
     
   </div>
@@ -160,20 +181,122 @@ gtag('config', 'G-GHF16EY2G2', { 'anonymize_ip': true});
 </header>
 
 
-<section id="abstract" class="level2">
-<h2 data-anchor-id="abstract">Abstract</h2>
-<p>We study how trade liberalization affects sex selection in a son-preferring society. Using the Vietnam–US 2001 trade agreement as a natural experiment, we exploit industry-level tariff cuts in a difference-in-differences framework. We find that women in exposed industries are more likely to have male children, work more, and have fewer births—effects driven solely by maternal, not paternal, exposure. A quantity-quality model with maternal time costs explains these patterns. Our findings reveal that rising maternal opportunity costs, rather than income or relative returns effects, can increase sex selection during economic transitions.</p>
-<div style="margin-bottom: 1rem; display: flex; gap: 10px;">
-<p><a href="SRB.pdf" target="_blank" style="display: inline-block; padding: 4px 12px; border: 1px solid #ccc; border-radius: 4px; text-decoration: none; font-size: 0.9rem; color: #841617; background-color: white; transition: all 0.2s ease-in-out;">PDF</a></p>
-<p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4582123" target="_blank" style="display: inline-block; padding: 4px 12px; border: 1px solid #ccc; border-radius: 4px; text-decoration: none; font-size: 0.9rem; color: #841617; background-color: white; transition: all 0.2s ease-in-out;">SSRN</a></p>
+<script>
+function toggleAbstract(id) {
+  // Close any open citation first
+  var citationId = id.replace('abstract', 'citation');
+  var citationElement = document.getElementById(citationId);
+  if (citationElement && citationElement.style.display === "block") {
+    citationElement.style.display = "none";
+    updateButtonText(citationId.replace('citation', 'cite-btn'), false);
+  }
+  
+  var element = document.getElementById(id);
+  var isOpen = element.style.display === "block";
+  
+  if (!isOpen) {
+    element.style.display = "block";
+    updateButtonText(id.replace('abstract', 'abs-btn'), true);
+  } else {
+    element.style.display = "none";
+    updateButtonText(id.replace('abstract', 'abs-btn'), false);
+  }
+}
+
+function toggleCitation(id) {
+  // Close any open abstract first
+  var abstractId = id.replace('citation', 'abstract');
+  var abstractElement = document.getElementById(abstractId);
+  if (abstractElement && abstractElement.style.display === "block") {
+    abstractElement.style.display = "none";
+    updateButtonText(abstractId.replace('abstract', 'abs-btn'), false);
+  }
+  
+  var element = document.getElementById(id);
+  var isOpen = element.style.display === "block";
+  
+  if (!isOpen) {
+    element.style.display = "block";
+    updateButtonText(id.replace('citation', 'cite-btn'), true);
+  } else {
+    element.style.display = "none";
+    updateButtonText(id.replace('citation', 'cite-btn'), false);
+  }
+}
+
+function updateButtonText(buttonId, isOpen) {
+  var button = document.getElementById(buttonId);
+  if (button) {
+    if (buttonId.includes('abs-btn')) {
+      button.innerHTML = isOpen ? "Abstract ˄" : "Abstract ˅";
+    } else if (buttonId.includes('cite-btn')) {
+      button.innerHTML = isOpen ? "Citation ˄" : "Citation ˅";
+    }
+  }
+}
+</script>
+<p>My research focuses on spatial economics, migration, and place-based policies. I study how government policies affect migration patterns and spatial inequality, using dynamic spatial general equilibrium models and policy-induced variations to understand the effectiveness of different policy approaches.</p>
+<section id="working-papers" class="level2">
+<h2 data-anchor-id="working-papers">Working Papers</h2>
+<p><strong>Paper Title Goes Here</strong><br>
+<em>Author Name(s)</em><br>
+<span style="background-color: #d1ecf1; color: #0c5460; padding: 2px 8px; border-radius: 12px; font-size: 0.85rem; font-weight: 500;">Working Paper</span></p>
+<div style="margin: 0.75rem 0; display: flex; gap: 15px; flex-wrap: wrap; align-items: center;">
+<p><a href="link-to-pdf.pdf" target="_blank" style="color: #007acc; text-decoration: none; font-size: 0.9rem;">PDF</a> <span style="color: #999;">·</span> <a href="link-to-ssrn" target="_blank" style="color: #007acc; text-decoration: none; font-size: 0.9rem;">SSRN</a> <span style="color: #999;">·</span> <span id="abs-btn1" onclick="toggleAbstract('abstract1')" style="color: #007acc; cursor: pointer; font-size: 0.9rem;">Abstract ˅</span> <span style="color: #999;">·</span> <span id="cite-btn1" onclick="toggleCitation('citation1')" style="color: #007acc; cursor: pointer; font-size: 0.9rem;">Citation ˅</span></p>
 </div>
+<div id="abstract1" style="display: none; margin-top: 1rem; padding: 1rem; background-color: #f8f9fa; border-radius: 4px; border-left: 3px solid #007acc;">
+<p>Your abstract text goes here…</p>
+</div>
+<div id="citation1" style="display: none; margin-top: 1rem; padding: 1rem; background-color: #f8f9fa; border-radius: 4px; border-left: 3px solid #6c757d;">
+<div class="sourceCode" id="cb1"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@unpublished</span>{<span class="ot">AuthorYear</span>,</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">Author</span> = {Your Name},</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">Note</span> = {Working paper},</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">Title</span> = {Paper Title},</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">Year</span> = {2025}</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<hr>
 </section>
-<section id="research-summary-in-vietnamese" class="level2">
-<h2 data-anchor-id="research-summary-in-vietnamese">Research Summary in Vietnamese</h2>
-<p>Bài tóm tắt nghiên cứu dưới đây bằng tiếng Việt được đăng tải bởi Đại học Fulbright Việt Nam.</p>
-<div style="margin-bottom: 1rem; display: flex; gap: 10px;">
-<p><a href="https://fsppm.fulbright.edu.vn/vn/tin-tuc-su-kien/tin-tuc-fsppm/moi-lien-ket-giua-thuong-mai-quoc-te-va-ty-le-gioi-tinh-tai-viet-nam/?fbclid=IwY2xjawK-sQBleHRuA2FlbQIxMQABHrdnfUbCqXwge8jYYFSQ2XRQJRvq0lhTOikjJ9yniSC_PX7fQCpl2bzVdiv5_aem_8Fpxi3WNIa0huxFQlCO04Q" target="_blank" style="display: inline-block; padding: 4px 12px; border: 1px solid #ccc; border-radius: 4px; text-decoration: none; font-size: 0.9rem; color: #333; background-color: white; transition: all 0.2s ease-in-out;">Link</a></p>
+<section id="published-articles" class="level2">
+<h2 data-anchor-id="published-articles">Published Articles</h2>
+<p><strong>Published Paper Title</strong><br>
+<em>Author Name(s)</em><br>
+<span style="background-color: #cce5ff; color: #004085; padding: 2px 8px; border-radius: 12px; font-size: 0.85rem; font-weight: 600;">Journal Name, Year</span></p>
+<div style="margin: 0.75rem 0; display: flex; gap: 15px; flex-wrap: wrap; align-items: center;">
+<p><a href="link-to-pdf.pdf" target="_blank" style="color: #007acc; text-decoration: none; font-size: 0.9rem;">PDF</a> <span style="color: #999;">·</span> <a href="publisher-link" target="_blank" style="color: #007acc; text-decoration: none; font-size: 0.9rem;">Publisher</a> <span style="color: #999;">·</span> <a href="data-link" target="_blank" style="color: #007acc; text-decoration: none; font-size: 0.9rem;">Data</a> <span style="color: #999;">·</span> <span id="abs-btn2" onclick="toggleAbstract('abstract2')" style="color: #007acc; cursor: pointer; font-size: 0.9rem;">Abstract ˅</span> <span style="color: #999;">·</span> <span id="cite-btn2" onclick="toggleCitation('citation2')" style="color: #007acc; cursor: pointer; font-size: 0.9rem;">Citation ˅</span></p>
 </div>
+<div style="margin: 0.5rem 0; display: flex; gap: 15px; flex-wrap: wrap; align-items: center;">
+<p><span style="color: #666; font-size: 0.85rem; font-style: italic;">Media:</span> <a href="media-link" target="_blank" style="color: #17a2b8; text-decoration: none; font-size: 0.85rem;">VoxEU Column</a> <span style="color: #999;">·</span> <a href="policy-brief" target="_blank" style="color: #17a2b8; text-decoration: none; font-size: 0.85rem;">Policy Brief</a></p>
+</div>
+<div id="abstract2" style="display: none; margin-top: 1rem; padding: 1rem; background-color: #f8f9fa; border-radius: 4px; border-left: 3px solid #007acc;">
+<p>Abstract for published paper…</p>
+</div>
+<div id="citation2" style="display: none; margin-top: 1rem; padding: 1rem; background-color: #f8f9fa; border-radius: 4px; border-left: 3px solid #6c757d;">
+<div class="sourceCode" id="cb2"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">AuthorYear</span>,</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">Author</span> = {Your Name},</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">Title</span> = {Paper Title},</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">Journal</span> = {Journal Name},</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">Year</span> = {2024},</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    <span class="dt">Volume</span> = {1},</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="dt">Number</span> = {1},</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    <span class="dt">Pages</span> = {1--20}</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<hr>
+</section>
+<section id="status-badge-reference" class="level2">
+<h2 data-anchor-id="status-badge-reference">Status Badge Reference</h2>
+<!-- Copy and paste these status badges as needed: -->
+<!-- Working Paper -->
+<p><span style="background-color: #d1ecf1; color: #0c5460; padding: 2px 8px; border-radius: 12px; font-size: 0.85rem; font-weight: 500;">Working Paper</span></p>
+<!-- Under Review -->
+<p><span style="background-color: #fff3cd; color: #856404; padding: 2px 8px; border-radius: 12px; font-size: 0.85rem; font-weight: 500;">Under Review</span></p>
+<!-- Revise & Resubmit -->
+<p><span style="background-color: #f8d7da; color: #721c24; padding: 2px 8px; border-radius: 12px; font-size: 0.85rem; font-weight: 500;">Revise &amp; Resubmit at Journal Name</span></p>
+<!-- Accepted -->
+<p><span style="background-color: #d4edda; color: #155724; padding: 2px 8px; border-radius: 12px; font-size: 0.85rem; font-weight: 500;">Accepted at Journal Name</span></p>
+<!-- Published -->
+<p><span style="background-color: #cce5ff; color: #004085; padding: 2px 8px; border-radius: 12px; font-size: 0.85rem; font-weight: 600;">Journal Name, Year</span></p>
 
 
 </section>

@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -29,8 +64,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -67,35 +100,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-working-papers .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-paper-title','listing-authors','listing-date','listing-details',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-working-papers'] = new List('listing-working-papers', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-GHF16EY2G2"></script>
 
 <script type="text/javascript">
@@ -106,40 +110,11 @@ gtag('js', new Date());
 gtag('config', 'G-GHF16EY2G2', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -179,12 +154,12 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -193,7 +168,7 @@ window.Quarto = {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -205,74 +180,103 @@ window.Quarto = {
 </header>
 
 
-<section id="working-papers" class="level3">
-<h3 data-anchor-id="working-papers">Working Papers</h3>
-<div id="listing-working-papers" class="quarto-listing quarto-listing-container-table">
-<table class="quarto-listing-table table table-hover">
-<thead>
-<tr>
+<script>
+function toggleAbstract(id) {
+  // Close any open citation first
+  var citationId = id.replace('abstract', 'citation');
+  var citationElement = document.getElementById(citationId);
+  if (citationElement && citationElement.style.display === "block") {
+    citationElement.style.display = "none";
+    updateButtonText(citationId.replace('citation', 'cite-btn'), false);
+  }
+  
+  var element = document.getElementById(id);
+  var isOpen = element.style.display === "block";
+  
+  if (!isOpen) {
+    element.style.display = "block";
+    updateButtonText(id.replace('abstract', 'abs-btn'), true);
+  } else {
+    element.style.display = "none";
+    updateButtonText(id.replace('abstract', 'abs-btn'), false);
+  }
+}
 
-<th>
-Title
-</th>
+function toggleCitation(id) {
+  // Close any open abstract first
+  var abstractId = id.replace('citation', 'abstract');
+  var abstractElement = document.getElementById(abstractId);
+  if (abstractElement && abstractElement.style.display === "block") {
+    abstractElement.style.display = "none";
+    updateButtonText(abstractId.replace('abstract', 'abs-btn'), false);
+  }
+  
+  var element = document.getElementById(id);
+  var isOpen = element.style.display === "block";
+  
+  if (!isOpen) {
+    element.style.display = "block";
+    updateButtonText(id.replace('citation', 'cite-btn'), true);
+  } else {
+    element.style.display = "none";
+    updateButtonText(id.replace('citation', 'cite-btn'), false);
+  }
+}
 
-<th>
-Co-authors
-</th>
-
-<th>
-Year
-</th>
-
-<th>
-Details
-</th>
-
-</tr>
-</thead>
-<tbody class="list">
-
-<tr data-index="0" data-categories="V29ya2luZyUyMHBhcGVy" data-listing-date-sort="1748754000000" data-listing-file-modified-sort="1751865475957" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="204" data-listing-title-sort="Place‑based Policy, Migration Barriers, and Spatial Inequality" data-listing-filename-sort="Huynh_Nghiem_JMP.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<span class="listing-paper-title">Place-based Policy, Migration Barriers, and Spatial Inequality</span>
-</td>
-<td>
-<span class="listing-authors">&nbsp;</span>
-</td>
-<td>
-<span class="listing-date">2025</span>
-</td>
-<td>
-<span class="listing-details"><a href="papers/Huynh_Nghiem_JMP.html">Paper</a></span>
-</td>
-
-</tr>
-
-<tr data-index="1" data-categories="V29ya2luZyUyMHBhcGVy" data-listing-date-sort="1746075600000" data-listing-file-modified-sort="1751865240320" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="200" data-listing-title-sort="Trade, Maternal Time Costs, and Sex Selection: Evidence from Vietnam" data-listing-filename-sort="sex_ratio.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<span class="listing-paper-title">Trade, Maternal Time Costs, and Sex Selection: Evidence from Vietnam</span>
-</td>
-<td>
-<span class="listing-authors">Ngoc T. T. Nguyen</span>
-</td>
-<td>
-<span class="listing-date">2025</span>
-</td>
-<td>
-<span class="listing-details"><a href="papers/sex_ratio.html">Paper</a></span>
-</td>
-
-</tr>
-
-</tbody>
-</table>
-<div class="listing-no-matching d-none">No matching items</div>
+function updateButtonText(buttonId, isOpen) {
+  var button = document.getElementById(buttonId);
+  if (button) {
+    if (buttonId.includes('abs-btn')) {
+      button.innerHTML = isOpen ? "Abstract ˄" : "Abstract ˅";
+    } else if (buttonId.includes('cite-btn')) {
+      button.innerHTML = isOpen ? "Citation ˄" : "Citation ˅";
+    }
+  }
+}
+</script>
+<p>My research is at the intersection of spatial economics, international trade, and development economics. It aims to evaluate how large-scale policy changes affect overall welfare and equity in economic opportunities. I apply trade and microeconomic theories and employ data from countries that have experienced significant legal reforms, such as Vietnam.</p>
+<section id="working-papers" class="level2">
+<h2 data-anchor-id="working-papers">Working Papers</h2>
+<section id="place-based-policy-migration-barriers-and-spatial-inequality" class="level3">
+<h3 data-anchor-id="place-based-policy-migration-barriers-and-spatial-inequality">Place-based Policy, Migration Barriers, and Spatial Inequality</h3>
+<!-- [Under Review]{style="background-color: #fff3cd; color: #856404; padding: 2px 8px; border-radius: 12px; font-size: 0.85rem; font-weight: 500;"} -->
+<p>[<a href="papers/Huynh_Nghiem_JMP.pdf" target="_blank">PDF (July 2025)</a> | <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5281304" target="_blank">SSRN</a> | <span id="abs-btn1" onclick="toggleAbstract('abstract1')" style="color: #841617; cursor: pointer;">Abstract ˅</span> | <span id="cite-btn1" onclick="toggleCitation('citation1')" style="color: #841617; cursor: pointer;">Citation ˅</span>]</p>
+<div id="abstract1" style="display: none; margin-top: 1rem; padding: 1rem; background-color: #f8f9fa; border-radius: 4px; border-left: 4px solid #841617;">
+<p>How should governments reduce spatial inequality: by attracting firms to disadvantaged regions or helping people reach thriving ones? Vietnam implemented both types of policies simultaneously through place-based tax incentives for firms in 2003 and the relaxation of the household registration system (Ho Khau) in 2005. I analyze these policies using a dynamic spatial general equilibrium model with firm life cycles and endogenous public services, and estimate key elasticities from policy-induced variations. The combined policies raise aggregate welfare by 1.3% and reduce spatial inequality by 0.7%. Migration reform alone reduces spatial inequality three times more than tax incentives. However, the migration policy’s impact depends critically on destination targeting: facilitating migration to the largest cities generates minimal redistribution, while reducing barriers to other destinations reduces spatial inequality by 1.3%, nearly double the combined policy effect. These findings suggest that strategic policy design matters more than choosing between firm-based and people-based approaches.</p>
+</div>
+<div id="citation1" style="display: none; margin-top: 1rem; padding: 1rem; background-color: #f8f9fa; border-radius: 4px; border-left: 4px solid #6c757d;">
+<div class="sourceCode" id="cb1"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@unpublished</span>{<span class="ot">Huynh:2025</span>,</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">Author</span> = {Nghi<span class="ch">\^</span>em Q. Hu<span class="ch">\`</span>ynh},</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">Note</span> = {Working paper},</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">Title</span> = {Place-based Policy, Migration Barriers, and Spatial Inequality},</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">Year</span> = {2025}</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="trade-maternal-time-costs-and-sex-selection-evidence-from-vietnam" class="level3">
+<h3 data-anchor-id="trade-maternal-time-costs-and-sex-selection-evidence-from-vietnam">Trade, Maternal Time Costs, and Sex Selection: Evidence from Vietnam</h3>
+<p><em>with <a href="https://www.linkedin.com/in/ngoc-nguyen-04183/" style="color: #333; text-decoration: none; border-bottom: 1px dotted #999;">Ngoc T. T. Nguyen</a></em><br>
+<!-- [Under Review]{style="background-color: #fff3cd; color: #856404; padding: 2px 8px; border-radius: 12px; font-size: 0.85rem; font-weight: 500;"} --></p>
+<div style="margin: 0.75rem 0; display: flex; gap: 15px; flex-wrap: wrap; align-items: center;">
+<p>[<a href="papers/SRB.pdf" target="_blank">PDF (May 2025)</a> | <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4582123" target="_blank">SSRN</a> | <span id="abs-btn2" onclick="toggleAbstract('abstract2')" style="color: #841617; cursor: pointer;">Abstract ˅</span> | <span id="cite-btn2" onclick="toggleCitation('citation2')" style="color: #841617; cursor: pointer;">Citation ˅</span>]</p>
+</div>
+<div style="margin: 0.5rem 0; display: flex; gap: 15px; flex-wrap: wrap; align-items: center;">
+<p><span style="color: #666; font-size: 0.9rem; font-style: italic;">Media:</span> <a href="https://fsppm.fulbright.edu.vn/vn/tin-tuc-su-kien/tin-tuc-fsppm/moi-lien-ket-giua-thuong-mai-quoc-te-va-ty-le-gioi-tinh-tai-viet-nam/" target="_blank" style="color: #5a6c7d; text-decoration: none; font-size: 0.9rem;">Summary in Vietnamese (Tiếng Việt)</a></p>
+</div>
+<div id="abstract2" style="display: none; margin-top: 1rem; padding: 1rem; background-color: #f8f9fa; border-radius: 4px; border-left: 4px solid #841617;">
+<p>We study how trade liberalization affects sex selection in a son-preferring society. Using the Vietnam–US 2001 trade agreement as a natural experiment, we exploit industry-level tariff cuts in a difference-in-differences framework. We find that women in exposed industries are more likely to have male children, work more, and have fewer births—effects driven solely by maternal, not paternal, exposure. A quantity-quality model with maternal time costs explains these patterns. Our findings reveal that rising maternal opportunity costs, rather than income or relative returns effects, can increase sex selection during economic transitions.</p>
+</div>
+<div id="citation2" style="display: none; margin-top: 1rem; padding: 1rem; background-color: #f8f9fa; border-radius: 4px; border-left: 4px solid #6c757d;">
+<div class="sourceCode" id="cb2"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="va">@unpublished</span>{<span class="ot">HuynhNguyen:2025</span>,</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">Author</span> = {Nghi<span class="ch">\^</span>em Q. Hu<span class="ch">\`</span>ynh and Ngoc T. T. Nguyen},</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">Note</span> = {Working paper},</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">Title</span> = {Trade, Maternal Time Costs, and Sex Selection: Evidence from Vietnam},</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">Year</span> = {2025}</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 
 
-
+</section>
 </section>
 
 </main> <!-- /main -->

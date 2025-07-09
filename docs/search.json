@@ -1,31 +1,45 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Nghiêm Q. Huỳnh",
+    "objectID": "templates/research-template.html",
+    "href": "templates/research-template.html",
+    "title": "Research",
     "section": "",
-    "text": "I am an Assistant Professor in the Department of Economics at the University of Oklahoma.\nMy research interests include:\n\nSpatial economics\nInternational trade\nDevelopment economics\n\nPlease see my Curriculum Vitae for more details. I can be reached at nqh@ou.edu.\n\n\nMy name is pronounced Nghiêm (Nee-em) Huỳnh (Hwin)"
+    "text": "My research focuses on spatial economics, migration, and place-based policies. I study how government policies affect migration patterns and spatial inequality, using dynamic spatial general equilibrium models and policy-induced variations to understand the effectiveness of different policy approaches."
   },
   {
-    "objectID": "papers/sex_ratio.html",
-    "href": "papers/sex_ratio.html",
-    "title": "Trade, Maternal Time Costs, and Sex Selection: Evidence from Vietnam",
-    "section": "",
-    "text": "We study how trade liberalization affects sex selection in a son-preferring society. Using the Vietnam–US 2001 trade agreement as a natural experiment, we exploit industry-level tariff cuts in a difference-in-differences framework. We find that women in exposed industries are more likely to have male children, work more, and have fewer births—effects driven solely by maternal, not paternal, exposure. A quantity-quality model with maternal time costs explains these patterns. Our findings reveal that rising maternal opportunity costs, rather than income or relative returns effects, can increase sex selection during economic transitions.\n\nPDF\nSSRN"
+    "objectID": "templates/research-template.html#working-papers",
+    "href": "templates/research-template.html#working-papers",
+    "title": "Research",
+    "section": "Working Papers",
+    "text": "Working Papers\nPaper Title Goes Here\nAuthor Name(s)\nWorking Paper\n\nPDF · SSRN · Abstract ˅ · Citation ˅\n\n\nYour abstract text goes here…\n\n\n@unpublished{AuthorYear,\n    Author = {Your Name},\n    Note = {Working paper},\n    Title = {Paper Title},\n    Year = {2025}\n}"
   },
   {
-    "objectID": "papers/sex_ratio.html#abstract",
-    "href": "papers/sex_ratio.html#abstract",
-    "title": "Trade, Maternal Time Costs, and Sex Selection: Evidence from Vietnam",
-    "section": "",
-    "text": "We study how trade liberalization affects sex selection in a son-preferring society. Using the Vietnam–US 2001 trade agreement as a natural experiment, we exploit industry-level tariff cuts in a difference-in-differences framework. We find that women in exposed industries are more likely to have male children, work more, and have fewer births—effects driven solely by maternal, not paternal, exposure. A quantity-quality model with maternal time costs explains these patterns. Our findings reveal that rising maternal opportunity costs, rather than income or relative returns effects, can increase sex selection during economic transitions.\n\nPDF\nSSRN"
+    "objectID": "templates/research-template.html#published-articles",
+    "href": "templates/research-template.html#published-articles",
+    "title": "Research",
+    "section": "Published Articles",
+    "text": "Published Articles\nPublished Paper Title\nAuthor Name(s)\nJournal Name, Year\n\nPDF · Publisher · Data · Abstract ˅ · Citation ˅\n\n\nMedia: VoxEU Column · Policy Brief\n\n\nAbstract for published paper…\n\n\n@article{AuthorYear,\n    Author = {Your Name},\n    Title = {Paper Title},\n    Journal = {Journal Name},\n    Year = {2024},\n    Volume = {1},\n    Number = {1},\n    Pages = {1--20}\n}"
   },
   {
-    "objectID": "papers/sex_ratio.html#research-summary-in-vietnamese",
-    "href": "papers/sex_ratio.html#research-summary-in-vietnamese",
-    "title": "Trade, Maternal Time Costs, and Sex Selection: Evidence from Vietnam",
-    "section": "Research Summary in Vietnamese",
-    "text": "Research Summary in Vietnamese\nBài tóm tắt nghiên cứu dưới đây bằng tiếng Việt được đăng tải bởi Đại học Fulbright Việt Nam.\n\nLink"
+    "objectID": "templates/research-template.html#status-badge-reference",
+    "href": "templates/research-template.html#status-badge-reference",
+    "title": "Research",
+    "section": "Status Badge Reference",
+    "text": "Status Badge Reference\n\n\nWorking Paper\n\nUnder Review\n\nRevise & Resubmit at Journal Name\n\nAccepted at Journal Name\n\nJournal Name, Year"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research is at the intersection of spatial economics, international trade, and development economics. It aims to evaluate how large-scale policy changes affect overall welfare and equity in economic opportunities. I apply trade and microeconomic theories and employ data from countries that have experienced significant legal reforms, such as Vietnam."
+  },
+  {
+    "objectID": "research.html#working-papers",
+    "href": "research.html#working-papers",
+    "title": "Research",
+    "section": "Working Papers",
+    "text": "Working Papers\n\nPlace-based Policy, Migration Barriers, and Spatial Inequality\n\n[PDF (July 2025) | SSRN | Abstract ˅ | Citation ˅]\n\nHow should governments reduce spatial inequality: by attracting firms to disadvantaged regions or helping people reach thriving ones? Vietnam implemented both types of policies simultaneously through place-based tax incentives for firms in 2003 and the relaxation of the household registration system (Ho Khau) in 2005. I analyze these policies using a dynamic spatial general equilibrium model with firm life cycles and endogenous public services, and estimate key elasticities from policy-induced variations. The combined policies raise aggregate welfare by 1.3% and reduce spatial inequality by 0.7%. Migration reform alone reduces spatial inequality three times more than tax incentives. However, the migration policy’s impact depends critically on destination targeting: facilitating migration to the largest cities generates minimal redistribution, while reducing barriers to other destinations reduces spatial inequality by 1.3%, nearly double the combined policy effect. These findings suggest that strategic policy design matters more than choosing between firm-based and people-based approaches.\n\n\n@unpublished{Huynh:2025,\n    Author = {Nghi\\^em Q. Hu\\`ynh},\n    Note = {Working paper},\n    Title = {Place-based Policy, Migration Barriers, and Spatial Inequality},\n    Year = {2025}\n}\n\n\n\nTrade, Maternal Time Costs, and Sex Selection: Evidence from Vietnam\nwith Ngoc T. T. Nguyen\n\n\n[PDF (May 2025) | SSRN | Abstract ˅ | Citation ˅]\n\n\nMedia: Summary in Vietnamese (Tiếng Việt)\n\n\nWe study how trade liberalization affects sex selection in a son-preferring society. Using the Vietnam–US 2001 trade agreement as a natural experiment, we exploit industry-level tariff cuts in a difference-in-differences framework. We find that women in exposed industries are more likely to have male children, work more, and have fewer births—effects driven solely by maternal, not paternal, exposure. A quantity-quality model with maternal time costs explains these patterns. Our findings reveal that rising maternal opportunity costs, rather than income or relative returns effects, can increase sex selection during economic transitions.\n\n\n@unpublished{HuynhNguyen:2025,\n    Author = {Nghi\\^em Q. Hu\\`ynh and Ngoc T. T. Nguyen},\n    Note = {Working paper},\n    Title = {Trade, Maternal Time Costs, and Sex Selection: Evidence from Vietnam},\n    Year = {2025}\n}"
   },
   {
     "objectID": "teaching.html",
@@ -35,24 +49,10 @@
     "text": "University of Oklahoma - Instructor\n\nInternational Trade & Spatial Economics (PhD)\n\nSpring 2025\n\nIntermediate Macroeconomics (Undergraduate)\n\nFall 2024\n\n\n\n\nYale University - Teaching Assistant\n\nIntermediate Microeconomics (Undergraduate)\n\nSummer 2021\n\nIntermediate Macroeconomics (Undergraduate)\n\nFall 2020\n\nIntroductory Microeconomics (Undergraduate)\n\nFall 2021, Fall 2022\n\nIntroductory Macroeconomics (Undergraduate)\n\nSpring 2021, Spring 2022, Spring 2024"
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Nghiêm Q. Huỳnh",
     "section": "",
-    "text": "Working Papers\n\n\n\n\n\n\nTitle\n\n\n\nCo-authors\n\n\n\nYear\n\n\n\nDetails\n\n\n\n\n\n\n\n\nPlace-based Policy, Migration Barriers, and Spatial Inequality\n\n\n \n\n\n2025\n\n\nPaper\n\n\n\n\n\n\nTrade, Maternal Time Costs, and Sex Selection: Evidence from Vietnam\n\n\nNgoc T. T. Nguyen\n\n\n2025\n\n\nPaper\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "papers/Huynh_Nghiem_JMP.html",
-    "href": "papers/Huynh_Nghiem_JMP.html",
-    "title": "Place‑based Policy, Migration Barriers, and Spatial Inequality",
-    "section": "",
-    "text": "How should governments reduce spatial inequality: by attracting firms to disadvantaged regions or helping people reach thriving ones? Vietnam implemented both types of policies simultaneously through place-based tax incentives for firms in 2003 and the relaxation of the household registration system (Ho Khau) in 2005. I analyze these policies using a dynamic spatial general equilibrium model with firm life cycles and endogenous public services, and estimate key elasticities from policy-induced variations. The combined policies raise aggregate welfare by 1.3% and reduce spatial inequality by 0.7%. Migration reform alone reduces spatial inequality three times more than tax incentives. However, the migration policy’s impact depends critically on destination targeting: facilitating migration to the largest cities generates minimal redistribution, while reducing barriers to other destinations reduces spatial inequality by 1.3%, nearly double the combined policy effect. These findings suggest that strategic policy design matters more than choosing between firm-based and people-based approaches.\n\nPDF\nSSRN"
-  },
-  {
-    "objectID": "papers/Huynh_Nghiem_JMP.html#abstract",
-    "href": "papers/Huynh_Nghiem_JMP.html#abstract",
-    "title": "Place‑based Policy, Migration Barriers, and Spatial Inequality",
-    "section": "",
-    "text": "How should governments reduce spatial inequality: by attracting firms to disadvantaged regions or helping people reach thriving ones? Vietnam implemented both types of policies simultaneously through place-based tax incentives for firms in 2003 and the relaxation of the household registration system (Ho Khau) in 2005. I analyze these policies using a dynamic spatial general equilibrium model with firm life cycles and endogenous public services, and estimate key elasticities from policy-induced variations. The combined policies raise aggregate welfare by 1.3% and reduce spatial inequality by 0.7%. Migration reform alone reduces spatial inequality three times more than tax incentives. However, the migration policy’s impact depends critically on destination targeting: facilitating migration to the largest cities generates minimal redistribution, while reducing barriers to other destinations reduces spatial inequality by 1.3%, nearly double the combined policy effect. These findings suggest that strategic policy design matters more than choosing between firm-based and people-based approaches.\n\nPDF\nSSRN"
+    "text": "I am an Assistant Professor in the Department of Economics at the University of Oklahoma.\nI am interested in spatial and development economics. I study how large-scale policy changes such as tax incentives and migration policies affect overall welfare and economic equity.\nMy papers are on my research page, and my CV is here.\nI completed my PhD in Economics at Yale University in 2024.\nI can be reached at nqh@ou.edu.\n\nMy name is pronounced Nghiêm (Nee-em) Huỳnh (Hwin)"
   }
 ]
