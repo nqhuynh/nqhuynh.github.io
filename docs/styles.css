@@ -305,6 +305,14 @@ h2 {
   margin: 0 0 0.2rem 0;
 }
 
+/* Paper award/distinction */
+.paper-award {
+  color: #555;
+  font-size: 0.9rem;
+  font-style: italic;
+  margin: 0 0 0.2rem 0;
+}
+
 /* Paper metadata: coauthors + links, tight spacing */
 .paper-meta {
   color: #555;

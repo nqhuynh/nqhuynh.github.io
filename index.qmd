@@ -14,6 +14,4 @@ My research focuses on international trade, spatial economics, and development e
 
 Before joining OU, I completed my PhD in Economics at Yale University in 2024. My papers are on my [research page](/research.html).
 
-[nqh@ou.edu]{style="color: #333; text-decoration: none; border-bottom: 1px dotted #999;"} | [CV](Huynh_Nghiem_CV.pdf){target="_blank" style="color: #333; text-decoration: none; border-bottom: 1px dotted #999;"}
-
-[Name pronunciation](https://hearmyname.net/say/vi-vn/Nghi%C3%AAm%20Hu%E1%BB%B3nh){target="_blank" style="color: #666; text-decoration: none; border-bottom: 1px dotted #999;"}
+[nqh@ou.edu](mailto:nqh@ou.edu){style="color: #333; text-decoration: none; border-bottom: 1px dotted #999;"} | [CV](Huynh_Nghiem_CV.pdf){target="_blank" style="color: #333; text-decoration: none; border-bottom: 1px dotted #999;"} | [Name pronunciation](https://hearmyname.net/say/vi-vn/Nghi%C3%AAm%20Hu%E1%BB%B3nh){target="_blank" style="color: #666; text-decoration: none; border-bottom: 1px dotted #999;"}
