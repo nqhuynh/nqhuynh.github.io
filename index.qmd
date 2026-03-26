@@ -1,30 +1,19 @@
 ---
 image: 1.JPG
-title: Nghiêm Q. Huỳnh
-about: 
+title: ""
+about:
   template: solana
-  image-width: 18em 
+  image-width: 18em
   image-shape: round
-  # links:
-  #   - icon: github
-  #     #text: Github
-  #     href: https://github.com/nqhuynh
-  #   - icon: twitter
-  #     #text: twitter
-  #     href: https://twitter.com/nghiemqhuynh
 css: styles.css
 ---
 
-I am an Assistant Professor in the Department of Economics at the [University of Oklahoma](https://www.ou.edu/cas/economics).
+I'm an Assistant Professor in the Department of Economics at the [University of Oklahoma](https://www.ou.edu/).
 
-I am interested in spatial and development economics. I study how large-scale policy changes such as tax incentives and migration policies affect overall welfare and economic equity. 
+My research focuses on international trade, spatial economics, and development economics.
 
-My papers are on my [research page](/research.qmd), and my CV is [here](Huynh_Nghiem_CV.pdf){target="_blank"}.
+Before joining OU, I completed my PhD in Economics at Yale University in 2024. My papers are on my [research page](/research.html).
 
-I completed my PhD in Economics at Yale University in 2024. 
+[nqh@ou.edu]{style="color: #333; text-decoration: none; border-bottom: 1px dotted #999;"} | [CV](Huynh_Nghiem_CV.pdf){target="_blank" style="color: #333; text-decoration: none; border-bottom: 1px dotted #999;"}
 
-I can be reached at [nqh@ou.edu]{style="color: #333; text-decoration: none; border-bottom: 1px dotted #999;"}.
-
-<p style="font-size: 1rem; color: #666; font-style: italic; text-align: left; margin-top: 2rem;">
-My name is pronounced Nghiêm (Nee-em) Huỳnh (Hwin)
-</p>
+[Name pronunciation](https://hearmyname.net/say/vi-vn/Nghi%C3%AAm%20Hu%E1%BB%B3nh){target="_blank" style="color: #666; text-decoration: none; border-bottom: 1px dotted #999;"}

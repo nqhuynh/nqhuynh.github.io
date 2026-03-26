@@ -20,41 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -72,7 +37,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6f33d95058f1d9482b656df4730cbfb3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-4ea301281dcaa587c6e6ce47a10882ba.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -114,7 +79,7 @@ gtag('config', 'G-GHF16EY2G2', { 'anonymize_ip': true});
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -144,7 +109,7 @@ gtag('config', 'G-GHF16EY2G2', { 'anonymize_ip': true});
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./Huynh_Nghiem_CV.pdf"> 
-<span class="menu-text">C.V.</span></a>
+<span class="menu-text">CV</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -154,12 +119,12 @@ gtag('config', 'G-GHF16EY2G2', { 'anonymize_ip': true});
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -168,7 +133,7 @@ gtag('config', 'G-GHF16EY2G2', { 'anonymize_ip': true});
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta">
 
     
   
@@ -180,103 +145,48 @@ gtag('config', 'G-GHF16EY2G2', { 'anonymize_ip': true});
 </header>
 
 
-<script>
-function toggleAbstract(id) {
-  // Close any open citation first
-  var citationId = id.replace('abstract', 'citation');
-  var citationElement = document.getElementById(citationId);
-  if (citationElement && citationElement.style.display === "block") {
-    citationElement.style.display = "none";
-    updateButtonText(citationId.replace('citation', 'cite-btn'), false);
-  }
-  
-  var element = document.getElementById(id);
-  var isOpen = element.style.display === "block";
-  
-  if (!isOpen) {
-    element.style.display = "block";
-    updateButtonText(id.replace('abstract', 'abs-btn'), true);
-  } else {
-    element.style.display = "none";
-    updateButtonText(id.replace('abstract', 'abs-btn'), false);
-  }
-}
-
-function toggleCitation(id) {
-  // Close any open abstract first
-  var abstractId = id.replace('citation', 'abstract');
-  var abstractElement = document.getElementById(abstractId);
-  if (abstractElement && abstractElement.style.display === "block") {
-    abstractElement.style.display = "none";
-    updateButtonText(abstractId.replace('abstract', 'abs-btn'), false);
-  }
-  
-  var element = document.getElementById(id);
-  var isOpen = element.style.display === "block";
-  
-  if (!isOpen) {
-    element.style.display = "block";
-    updateButtonText(id.replace('citation', 'cite-btn'), true);
-  } else {
-    element.style.display = "none";
-    updateButtonText(id.replace('citation', 'cite-btn'), false);
-  }
-}
-
-function updateButtonText(buttonId, isOpen) {
-  var button = document.getElementById(buttonId);
-  if (button) {
-    if (buttonId.includes('abs-btn')) {
-      button.innerHTML = isOpen ? "Abstract ˄" : "Abstract ˅";
-    } else if (buttonId.includes('cite-btn')) {
-      button.innerHTML = isOpen ? "BibTeX ˄" : "BibTeX ˅";
-    }
-  }
-}
-</script>
-<p>My research is at the intersection of spatial economics, international trade, and development economics. It aims to evaluate how large-scale policy changes affect overall welfare and equity in economic opportunities. I apply trade and microeconomic theories and employ data from countries that have experienced significant legal reforms, such as Vietnam.</p>
 <section id="working-papers" class="level2">
 <h2 data-anchor-id="working-papers">Working Papers</h2>
-<section id="place-based-policy-migration-barriers-and-spatial-inequality" class="level4">
-<h4 data-anchor-id="place-based-policy-migration-barriers-and-spatial-inequality">Place-based Policy, Migration Barriers, and Spatial Inequality</h4>
-<!-- [Under Review]{style="background-color: #fff3cd; color: #856404; padding: 2px 8px; border-radius: 12px; font-size: 0.85rem; font-weight: 500;"} -->
-<p>[<a href="papers/Huynh_Nghiem_JMP.pdf" target="_blank">PDF (December 2025)</a> | <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5281304" target="_blank">SSRN</a> | <span id="abs-btn1" onclick="toggleAbstract('abstract1')" style="color: #841617; cursor: pointer;">Abstract ˅</span>] <!-- <span id="cite-btn1" onclick="toggleCitation('citation1')" style="color: #841617; cursor: pointer;">BibTeX ˅</span>] --></p>
-<div id="abstract1" style="display: none; margin-top: 1rem; padding: 1rem; background-color: #f8f9fa; border-radius: 4px; border-left: 4px solid #841617;">
-<p>What makes place-based incentives for firms succeed at reducing spatial inequality? The answer depends on where workers migrate and thus on how migration costs vary across destinations. I develop a dynamic spatial general equilibrium model with firm dynamics and endogenous public services. Vietnam’s enterprise tax and household registration reforms provide variation in place-based incentives and migration costs. I exploit these variations to discipline key elasticities. I find that where migration costs fall matters more than how much they fall. When migration barriers fall toward secondary cities rather than metropolitan areas in Vietnam, the redistributive effect of place-based incentives increases fivefold.</p>
-</div>
-<div id="citation1" style="display: none; margin-top: 1rem; padding: 1rem; background-color: #f8f9fa; border-radius: 4px; border-left: 4px solid #6c757d;">
-<div class="sourceCode" id="cb1"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@unpublished</span>{<span class="ot">Huynh:2025</span>,</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">Author</span> = {Nghi<span class="ch">\^</span>em Q. Hu<span class="ch">\`</span>ynh},</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">Note</span> = {Working paper},</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">Title</span> = {Place-based Policy, Migration Barriers, and Spatial Inequality},</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">Year</span> = {2025}</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="trade-maternal-time-costs-and-sex-selection-evidence-from-vietnam" class="level4">
-<h4 data-anchor-id="trade-maternal-time-costs-and-sex-selection-evidence-from-vietnam">Trade, Maternal Time Costs, and Sex Selection: Evidence from Vietnam</h4>
-<p><em>with <a href="https://www.linkedin.com/in/ngoc-nguyen-04183/" style="color: #333; text-decoration: none; border-bottom: 1px dotted #999;">Ngoc T. T. Nguyen</a></em><br>
-<!-- [Under Review]{style="background-color: #fff3cd; color: #856404; padding: 2px 8px; border-radius: 12px; font-size: 0.85rem; font-weight: 500;"} --></p>
-<div style="margin: 0.75rem 0; display: flex; gap: 15px; flex-wrap: wrap; align-items: center;">
-<p>[<a href="papers/SRB.pdf" target="_blank">PDF (May 2025)</a> | <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4582123" target="_blank">SSRN</a> | <span id="abs-btn2" onclick="toggleAbstract('abstract2')" style="color: #841617; cursor: pointer;">Abstract ˅</span>] <!-- <span id="cite-btn2" onclick="toggleCitation('citation2')" style="color: #841617; cursor: pointer;">BibTeX ˅</span>] --></p>
-</div>
-<div style="margin: 0.5rem 0; display: flex; gap: 15px; flex-wrap: wrap; align-items: center;">
-<p><span style="color: #666; font-size: 0.9rem; font-style: italic;">Media:</span> <a href="https://fsppm.fulbright.edu.vn/vn/tin-tuc-su-kien/tin-tuc-fsppm/moi-lien-ket-giua-thuong-mai-quoc-te-va-ty-le-gioi-tinh-tai-viet-nam/" target="_blank" style="color: #5a6c7d; text-decoration: none; font-size: 0.9rem;">Summary in Vietnamese (Tiếng Việt)</a></p>
-</div>
-<div id="abstract2" style="display: none; margin-top: 1rem; padding: 1rem; background-color: #f8f9fa; border-radius: 4px; border-left: 4px solid #841617;">
+<ol class="paper-list">
+
+<li class="paper-entry">
+<p class="paper-title">Platforms for Growth? Multinationals, Trade, and Technology Diffusion</p>
+<p class="paper-meta">
+with <a href="https://sheng-cai.com/" target="_blank">Sheng Cai</a> and <a href="https://johnfinlay.me/" target="_blank">John Finlay</a><br>
+<a class="paper-link" href="papers/CFH.pdf" target="_blank">PDF (03/2026)</a>
+</p>
+<details class="paper-abstract">
+<summary>Abstract</summary>
+<p>We study the role of export platforms—sectors that combine export-oriented production with a strong multinational firm presence—in shaping trade and growth. Empirically, we focus on Vietnam and exploit variation across sectors along two dimensions: first, in exposure to a reform that sharply lowered the cost of exporting to the United States; and second, in pre-reform openness to multinationals. We find that the interaction of export market access and multinational presence generated large increases in exports, sales, and employment. These differential effects were driven by both multinationals and domestically-owned firms, and domestic firms in exposed sectors report more links with multinationals, more technology transfer, and more technology modifications. Motivated by these results, we build a quantitative model that embeds multinational production and technology diffusion within a general equilibrium trade framework. We calibrate the model's key parameters by targeting our empirical results and quantify how becoming an export platform has contributed to Vietnam's growth.</p>
+</details>
+</li>
+
+<li class="paper-entry">
+<p class="paper-title">Place-based Policy, Migration Barriers, and Spatial Inequality</p>
+<p class="paper-meta">
+<a class="paper-link" href="papers/Huynh_Nghiem_JMP.pdf" target="_blank">PDF (12/2025)</a> | <a class="paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5281304" target="_blank">SSRN</a>
+</p>
+<details class="paper-abstract">
+<summary>Abstract</summary>
+<p>What makes place-based incentives for firms succeed at reducing spatial inequality? The answer depends on where workers migrate and thus on how migration costs vary across destinations. I develop a dynamic spatial general equilibrium model with firm dynamics and endogenous public services. Vietnam's enterprise tax and household registration reforms provide variation in place-based incentives and migration costs. I exploit these variations to discipline key elasticities. I find that where migration costs fall matters more than how much they fall. When migration barriers fall toward secondary cities rather than metropolitan areas in Vietnam, the redistributive effect of place-based incentives increases fivefold.</p>
+</details>
+</li>
+
+<li class="paper-entry">
+<p class="paper-title">Trade, Maternal Time Costs, and Sex Selection: Evidence from Vietnam</p>
+<p class="paper-meta">
+with <a href="https://www.linkedin.com/in/ngoc-nguyen-04183/" target="_blank">Ngoc T. T. Nguyen</a><br>
+<a class="paper-link" href="papers/SRB.pdf" target="_blank">PDF (05/2025)</a> | <a class="paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4582123" target="_blank">SSRN</a> | <a class="media-link" href="https://fsppm.fulbright.edu.vn/vn/tin-tuc-su-kien/tin-tuc-fsppm/moi-lien-ket-giua-thuong-mai-quoc-te-va-ty-le-gioi-tinh-tai-viet-nam/" target="_blank">Summary (Vietnamese)</a>
+</p>
+<details class="paper-abstract">
+<summary>Abstract</summary>
 <p>We study how trade liberalization affects sex selection in a son-preferring society. Using the Vietnam–US 2001 trade agreement as a natural experiment, we exploit industry-level tariff cuts in a difference-in-differences framework. We find that women in exposed industries are more likely to have male children, work more, and have fewer births—effects driven solely by maternal, not paternal, exposure. A quantity-quality model with maternal time costs explains these patterns. Our findings reveal that rising maternal opportunity costs, rather than income or relative returns effects, can increase sex selection during economic transitions.</p>
-</div>
-<div id="citation2" style="display: none; margin-top: 1rem; padding: 1rem; background-color: #f8f9fa; border-radius: 4px; border-left: 4px solid #6c757d;">
-<div class="sourceCode" id="cb2"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="va">@unpublished</span>{<span class="ot">HuynhNguyen:2025</span>,</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">Author</span> = {Nghi<span class="ch">\^</span>em Q. Hu<span class="ch">\`</span>ynh and Ngoc T. T. Nguyen},</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">Note</span> = {Working paper},</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">Title</span> = {Trade, Maternal Time Costs, and Sex Selection: Evidence from Vietnam},</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">Year</span> = {2025}</span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+</details>
+</li>
+
+</ol>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

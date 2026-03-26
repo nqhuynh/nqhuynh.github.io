@@ -1,126 +1,53 @@
 ---
 title: "Research"
-page-layout: full
+page-layout: article
 sidebar: false
 toc: false
-search: true
 format:
   html:
     css: styles.css
     anchor-sections: false
 ---
 
-
-```{=html}
-<script>
-function toggleAbstract(id) {
-  // Close any open citation first
-  var citationId = id.replace('abstract', 'citation');
-  var citationElement = document.getElementById(citationId);
-  if (citationElement && citationElement.style.display === "block") {
-    citationElement.style.display = "none";
-    updateButtonText(citationId.replace('citation', 'cite-btn'), false);
-  }
-  
-  var element = document.getElementById(id);
-  var isOpen = element.style.display === "block";
-  
-  if (!isOpen) {
-    element.style.display = "block";
-    updateButtonText(id.replace('abstract', 'abs-btn'), true);
-  } else {
-    element.style.display = "none";
-    updateButtonText(id.replace('abstract', 'abs-btn'), false);
-  }
-}
-
-function toggleCitation(id) {
-  // Close any open abstract first
-  var abstractId = id.replace('citation', 'abstract');
-  var abstractElement = document.getElementById(abstractId);
-  if (abstractElement && abstractElement.style.display === "block") {
-    abstractElement.style.display = "none";
-    updateButtonText(abstractId.replace('abstract', 'abs-btn'), false);
-  }
-  
-  var element = document.getElementById(id);
-  var isOpen = element.style.display === "block";
-  
-  if (!isOpen) {
-    element.style.display = "block";
-    updateButtonText(id.replace('citation', 'cite-btn'), true);
-  } else {
-    element.style.display = "none";
-    updateButtonText(id.replace('citation', 'cite-btn'), false);
-  }
-}
-
-function updateButtonText(buttonId, isOpen) {
-  var button = document.getElementById(buttonId);
-  if (button) {
-    if (buttonId.includes('abs-btn')) {
-      button.innerHTML = isOpen ? "Abstract ˄" : "Abstract ˅";
-    } else if (buttonId.includes('cite-btn')) {
-      button.innerHTML = isOpen ? "BibTeX ˄" : "BibTeX ˅";
-    }
-  }
-}
-</script>
-```
-
-My research is at the intersection of spatial economics, international trade, and development economics. It aims to evaluate how large-scale policy changes affect overall welfare and equity in economic opportunities. I apply trade and microeconomic theories and employ data from countries that have experienced significant legal reforms, such as Vietnam.
-
 ## Working Papers
 
-#### Place-based Policy, Migration Barriers, and Spatial Inequality  
-<!-- [Under Review]{style="background-color: #fff3cd; color: #856404; padding: 2px 8px; border-radius: 12px; font-size: 0.85rem; font-weight: 500;"} -->
+```{=html}
+<ol class="paper-list">
 
-[<a href="papers/Huynh_Nghiem_JMP.pdf" target="_blank">PDF (December 2025)</a> | <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5281304" target="_blank">SSRN</a> | <span id="abs-btn1" onclick="toggleAbstract('abstract1')" style="color: #841617; cursor: pointer;">Abstract ˅</span>]
-<!-- <span id="cite-btn1" onclick="toggleCitation('citation1')" style="color: #841617; cursor: pointer;">BibTeX ˅</span>] -->
+<li class="paper-entry">
+<p class="paper-title">Platforms for Growth? Multinationals, Trade, and Technology Diffusion</p>
+<p class="paper-meta">
+with <a href="https://sheng-cai.com/" target="_blank">Sheng Cai</a> and <a href="https://johnfinlay.me/" target="_blank">John Finlay</a><br>
+<a class="paper-link" href="papers/CFH.pdf" target="_blank">PDF (03/2026)</a>
+</p>
+<details class="paper-abstract">
+<summary>Abstract</summary>
+<p>We study the role of export platforms—sectors that combine export-oriented production with a strong multinational firm presence—in shaping trade and growth. Empirically, we focus on Vietnam and exploit variation across sectors along two dimensions: first, in exposure to a reform that sharply lowered the cost of exporting to the United States; and second, in pre-reform openness to multinationals. We find that the interaction of export market access and multinational presence generated large increases in exports, sales, and employment. These differential effects were driven by both multinationals and domestically-owned firms, and domestic firms in exposed sectors report more links with multinationals, more technology transfer, and more technology modifications. Motivated by these results, we build a quantitative model that embeds multinational production and technology diffusion within a general equilibrium trade framework. We calibrate the model's key parameters by targeting our empirical results and quantify how becoming an export platform has contributed to Vietnam's growth.</p>
+</details>
+</li>
 
-::: {#abstract1 style="display: none; margin-top: 1rem; padding: 1rem; background-color: #f8f9fa; border-radius: 4px; border-left: 4px solid #841617;"}
-What makes place-based incentives for firms succeed at reducing spatial inequality? The answer depends on where workers migrate and thus on how migration costs vary across destinations. I develop a dynamic spatial general equilibrium model with firm dynamics and endogenous public services. Vietnam's enterprise tax and household registration reforms provide variation in place-based incentives and migration costs. I exploit these variations to discipline key elasticities. I find that where migration costs fall matters more than how much they fall. When migration barriers fall toward secondary cities rather than metropolitan areas in Vietnam, the redistributive effect of place-based incentives increases fivefold.
-:::
+<li class="paper-entry">
+<p class="paper-title">Place-based Policy, Migration Barriers, and Spatial Inequality</p>
+<p class="paper-meta">
+<a class="paper-link" href="papers/Huynh_Nghiem_JMP.pdf" target="_blank">PDF (12/2025)</a> | <a class="paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5281304" target="_blank">SSRN</a>
+</p>
+<details class="paper-abstract">
+<summary>Abstract</summary>
+<p>What makes place-based incentives for firms succeed at reducing spatial inequality? The answer depends on where workers migrate and thus on how migration costs vary across destinations. I develop a dynamic spatial general equilibrium model with firm dynamics and endogenous public services. Vietnam's enterprise tax and household registration reforms provide variation in place-based incentives and migration costs. I exploit these variations to discipline key elasticities. I find that where migration costs fall matters more than how much they fall. When migration barriers fall toward secondary cities rather than metropolitan areas in Vietnam, the redistributive effect of place-based incentives increases fivefold.</p>
+</details>
+</li>
 
-::: {#citation1 style="display: none; margin-top: 1rem; padding: 1rem; background-color: #f8f9fa; border-radius: 4px; border-left: 4px solid #6c757d;"}
-```bibtex
-@unpublished{Huynh:2025,
-    Author = {Nghi\^em Q. Hu\`ynh},
-    Note = {Working paper},
-    Title = {Place-based Policy, Migration Barriers, and Spatial Inequality},
-    Year = {2025}
-}
+<li class="paper-entry">
+<p class="paper-title">Trade, Maternal Time Costs, and Sex Selection: Evidence from Vietnam</p>
+<p class="paper-meta">
+with <a href="https://www.linkedin.com/in/ngoc-nguyen-04183/" target="_blank">Ngoc T. T. Nguyen</a><br>
+<a class="paper-link" href="papers/SRB.pdf" target="_blank">PDF (05/2025)</a> | <a class="paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4582123" target="_blank">SSRN</a> | <a class="media-link" href="https://fsppm.fulbright.edu.vn/vn/tin-tuc-su-kien/tin-tuc-fsppm/moi-lien-ket-giua-thuong-mai-quoc-te-va-ty-le-gioi-tinh-tai-viet-nam/" target="_blank">Summary (Vietnamese)</a>
+</p>
+<details class="paper-abstract">
+<summary>Abstract</summary>
+<p>We study how trade liberalization affects sex selection in a son-preferring society. Using the Vietnam–US 2001 trade agreement as a natural experiment, we exploit industry-level tariff cuts in a difference-in-differences framework. We find that women in exposed industries are more likely to have male children, work more, and have fewer births—effects driven solely by maternal, not paternal, exposure. A quantity-quality model with maternal time costs explains these patterns. Our findings reveal that rising maternal opportunity costs, rather than income or relative returns effects, can increase sex selection during economic transitions.</p>
+</details>
+</li>
+
+</ol>
 ```
-:::
-
-
-
-#### Trade, Maternal Time Costs, and Sex Selection: Evidence from Vietnam
-*with [Ngoc T. T. Nguyen](https://www.linkedin.com/in/ngoc-nguyen-04183/){style="color: #333; text-decoration: none; border-bottom: 1px dotted #999;"}*  
-<!-- [Under Review]{style="background-color: #fff3cd; color: #856404; padding: 2px 8px; border-radius: 12px; font-size: 0.85rem; font-weight: 500;"} -->
-
-::: {style="margin: 0.75rem 0; display: flex; gap: 15px; flex-wrap: wrap; align-items: center;"}
-[<a href="papers/SRB.pdf" target="_blank">PDF (May 2025)</a> | 
-<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4582123" target="_blank">SSRN</a> | 
-<span id="abs-btn2" onclick="toggleAbstract('abstract2')" style="color: #841617; cursor: pointer;">Abstract ˅</span>]
-<!-- <span id="cite-btn2" onclick="toggleCitation('citation2')" style="color: #841617; cursor: pointer;">BibTeX ˅</span>] -->
-:::
-
-::: {style="margin: 0.5rem 0; display: flex; gap: 15px; flex-wrap: wrap; align-items: center;"}
-[Media:]{style="color: #666; font-size: 0.9rem; font-style: italic;"} <a href="https://fsppm.fulbright.edu.vn/vn/tin-tuc-su-kien/tin-tuc-fsppm/moi-lien-ket-giua-thuong-mai-quoc-te-va-ty-le-gioi-tinh-tai-viet-nam/" target="_blank" style="color: #5a6c7d; text-decoration: none; font-size: 0.9rem;">Summary in Vietnamese (Tiếng Việt)</a> 
-:::
-
-::: {#abstract2 style="display: none; margin-top: 1rem; padding: 1rem; background-color: #f8f9fa; border-radius: 4px; border-left: 4px solid #841617;"}
-We study how trade liberalization affects sex selection in a son-preferring society. Using the Vietnam–US 2001 trade agreement as a natural experiment, we exploit industry-level tariff cuts in a difference-in-differences framework. We find that women in exposed industries are more likely to have male children, work more, and have fewer births—effects driven solely by maternal, not paternal, exposure. A quantity-quality model with maternal time costs explains these patterns. Our findings reveal that rising maternal opportunity costs, rather than income or relative returns effects, can increase sex selection during economic transitions.
-:::
-
-::: {#citation2 style="display: none; margin-top: 1rem; padding: 1rem; background-color: #f8f9fa; border-radius: 4px; border-left: 4px solid #6c757d;"}
-```bibtex
-@unpublished{HuynhNguyen:2025,
-    Author = {Nghi\^em Q. Hu\`ynh and Ngoc T. T. Nguyen},
-    Note = {Working paper},
-    Title = {Trade, Maternal Time Costs, and Sex Selection: Evidence from Vietnam},
-    Year = {2025}
-}
-```
-:::
