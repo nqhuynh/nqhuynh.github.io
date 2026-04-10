@@ -38,6 +38,18 @@ with <a href="https://sheng-cai.com/" target="_blank">Sheng Cai</a> and <a href=
 </li>
 
 <li class="paper-entry">
+<p class="paper-title">Does Easing Migration Barriers Increase Labor Unrest?</p>
+<p class="paper-meta">
+with <a href="https://www.ou.edu/cas/economics/people/faculty/firat-demir" target="_blank">Firat Demir</a> and Chenghao Hu<br>
+<a class="paper-link" href="papers/Hukou_Unrest.pdf" target="_blank">PDF (04/2026)</a> | <a class="paper-link" href="https://papers.ssrn.com/abstract=5578851" target="_blank">SSRN</a>
+</p>
+<details class="paper-abstract">
+<summary>Abstract</summary>
+<p>Most evidence finds that granting formal status to migrants reduces crime and unrest. We find the opposite. Exploiting China's 2014 Hukou reform, which reduced within-country migration barriers, particularly for cities below one million residents, we show that per capita unrest almost doubled and peaked at nearly four times the pre-reform mean. The increase was concentrated in manufacturing, construction, and transportation sectors. Service employment expanded in low-skill sectors, but manufacturing employment remained unchanged. The reform expanded migrants' access to formal residency faster than labor markets could absorb, increasing pressure on employment, contracts, and social insurance.</p>
+</details>
+</li>
+
+<li class="paper-entry">
 <p class="paper-title">Better Jobs for Mothers, More Sons at Birth</p>
 <p class="paper-meta">
 with <a href="https://www.linkedin.com/in/ngoc-nguyen-04183/" target="_blank">Ngoc T. T. Nguyen</a><br>
