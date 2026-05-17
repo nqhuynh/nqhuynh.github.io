@@ -1,36 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
 
-/* Set the base font size for the entire document */
+/* ============================================================
+   Palette
+   ----
+   Six functional tokens. Anything not listed here should not appear.
+     --ink        #1a1a1a   body text, paper title, headings, brand
+     --muted      #666      meta info, navbar links, footer text
+     --accent     #8b4049   all clickable items default or on hover
+     --accent-dk  #6d3038   accent hover/focus
+     --faint      #ddd      hairline borders, separators
+     --panel      #f8f9fa   abstract expansion background
+   ============================================================ */
+
+:root {
+  --ink: #1a1a1a;
+  --muted: #666;
+  --accent: #8b4049;
+  --accent-dk: #6d3038;
+  --faint: #ddd;
+  --panel: #f8f9fa;
+}
+
+/* ============================================================
+   Base typography
+   ============================================================ */
+
 html {
   font-size: 18px;
 }
 
-/* Modern typography and layout improvements */
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.6;
-  color: #1a1a1a;
+  color: var(--ink);
 }
 
-/* Cleaner headings */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
-  color: #000;
+  color: var(--ink);
   margin-top: 2rem;
   margin-bottom: 1rem;
   border-bottom: none !important;
   text-decoration: none !important;
 }
 
-h1.title {
-  font-weight: 400;
-}
-
-h3 {
-  font-weight: 400;
-}
+h1.title { font-weight: 400; }
+h3 { font-weight: 400; }
 
 h1 { font-size: 2rem; }
 h2 { font-size: 1.8rem; }
@@ -43,23 +60,29 @@ h1::after, h2::after, h3::after, h4::after, h5::after, h6::after {
   content: none !important;
 }
 
-/* --- Compact navbar with subtle background for contrast --- */
+/* ============================================================
+   Navbar — white panel, hairline divider, no background fill
+   ============================================================ */
+
 .navbar {
-  background: #fafafa !important;
-  border-bottom: 1px solid #e0e0e0;
+  background: #fff !important;
+  border-bottom: 1px solid var(--faint);
   padding: 0.3rem 0;
 }
 
-.navbar-brand {
+.navbar-brand,
+.navbar-brand:hover,
+.navbar-brand:focus {
   font-weight: 400;
-  color: #000 !important;
+  color: var(--ink) !important;
   font-size: 1.2rem;
   padding-top: 0;
   padding-bottom: 0;
 }
 
-.navbar .nav-link {
-  color: #555 !important;
+.navbar .nav-link,
+.navbar .nav-link:visited {
+  color: var(--muted) !important;
   font-weight: 400;
   font-size: 1.05rem;
   transition: color 0.2s ease;
@@ -67,49 +90,45 @@ h1::after, h2::after, h3::after, h4::after, h5::after, h6::after {
 
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
-  color: #000 !important;
-}
-
-.navbar .nav-link:visited {
-  color: #555 !important;
+  color: var(--ink) !important;
 }
 
 .navbar .nav-link.active,
 .navbar .nav-link.show {
-  color: #8b4049 !important;
+  color: var(--accent) !important;
   background-color: transparent !important;
 }
 
-.navbar-brand,
-.navbar-brand:hover,
-.navbar-brand:focus {
-  color: #000 !important;
-}
+/* ============================================================
+   Links (default body links — paper titles & paper actions
+   override these below)
+   ============================================================ */
 
-/* --- Link styling --- */
-a {
-  color: #8b4049;
+a, a:visited {
+  color: var(--accent);
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
 a:hover {
-  color: #6d3038;
+  color: var(--accent-dk);
   text-decoration: underline;
 }
 
-a:visited {
-  color: #8b4049;
-}
+/* ============================================================
+   Container
+   ============================================================ */
 
-/* Better spacing and layout */
 .container {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 2rem;
 }
 
-/* Clean table styling */
+/* ============================================================
+   Tables
+   ============================================================ */
+
 .table {
   border: none;
   font-size: 1rem;
@@ -117,53 +136,58 @@ a:visited {
 
 .table th {
   border-top: none;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 2px solid var(--faint);
   font-weight: 500;
-  color: #000;
+  color: var(--ink);
   padding: 1rem 0.5rem;
-  font-size: 1rem;
-  font-family: 'Roboto', sans-serif;
 }
 
 .table td {
   border-top: none;
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 1px solid var(--faint);
   padding: 1rem 0.5rem;
   vertical-align: middle;
-  font-size: 1rem;
 }
 
-/* Modern footer */
+/* ============================================================
+   Footer
+   ============================================================ */
+
 .page-footer {
-  border-top: 1px solid #ddd;
+  border-top: 1px solid var(--faint);
   padding: 2rem 0;
   margin-top: 4rem;
   text-align: center;
 }
 
-.page-footer a {
-  color: #444;
+.page-footer a,
+.page-footer a:visited,
+footer a,
+footer a:visited {
+  color: var(--muted) !important;
   margin: 0 0.5rem;
   font-size: 1.3rem;
 }
 
-.page-footer a:hover {
-  color: #000;
+.page-footer a:hover,
+footer a:hover {
+  color: var(--ink) !important;
 }
 
-/* Better content spacing */
+/* ============================================================
+   Paragraphs and lists
+   ============================================================ */
+
 p {
   margin-bottom: 1.5rem;
   font-size: 1rem;
   text-align: left;
-  text-justify: inter-word;
 }
 
 p:has(+ ul) {
   margin-bottom: 0.5rem;
 }
 
-/* Clean button styling */
 .btn {
   border-radius: 4px;
   font-weight: 400;
@@ -172,7 +196,6 @@ p:has(+ ul) {
   font-size: 1rem;
 }
 
-/* --- List styling --- */
 ul {
   list-style: none;
   padding-left: 10px;
@@ -183,219 +206,236 @@ li {
   padding-left: 10px;
   margin-bottom: 0.5rem;
   text-align: left;
-  font-size: 1rem;
 }
 
 li::marker {
-  color: black;
+  color: var(--ink);
   content: '•';
-  position: absolute;
-  left: 0;
 }
 
-li li {
-  margin-top: 0.25rem;
-}
+li li { margin-top: 0.25rem; }
+li li::marker { content: '◦'; }
 
-li li::marker {
-  content: '◦';
-}
-
-/* Remove bullet points from navbar */
-.navbar ul {
-  list-style: none !important;
-  padding-left: 0 !important;
-  margin-bottom: 0 !important;
-}
-
-.navbar li {
-  padding-left: 0 !important;
-  position: static;
-}
-
-.navbar li::marker {
-  content: none !important;
-}
-
-/* Remove bullet points from footer */
+.navbar ul,
 footer ul {
   list-style: none !important;
   padding-left: 0 !important;
   margin-bottom: 0 !important;
 }
 
+.navbar li,
 footer li {
   padding-left: 0 !important;
+  position: static;
 }
 
+.navbar li::marker,
 footer li::marker {
   content: none !important;
 }
 
-/* --- Mobile-specific styles --- */
 @media (max-width: 767px) {
   .navbar {
-    background: #fafafa !important;
-    border-bottom: 1px solid #e0e0e0;
+    background: #fff !important;
+    border-bottom: 1px solid var(--faint);
   }
 }
 
-/* --- Footer Social Icons --- */
-footer a,
-footer a:visited {
-  color: black !important;
-}
+/* ============================================================
+   Research page — paper list
+   ============================================================ */
 
-
-/* ============================
-   Research page styling
-   ============================ */
-
-/* Section headers on research page */
 h2 {
-  color: #333;
+  color: var(--ink);
   font-weight: 400;
   font-size: 1.2rem;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid var(--faint);
   padding-bottom: 0.4rem;
 }
 
-/* Numbered paper list */
 .paper-list {
   list-style: none;
   padding-left: 0;
-  counter-reset: paper-counter;
 }
 
 .paper-list > li.paper-entry {
-  counter-increment: paper-counter;
-  padding: 1.25rem 0 1.25rem 2.5rem;
+  padding: 0.75rem 0;
   position: relative;
-  border-bottom: 1px solid #eee;
 }
 
-.paper-list > li.paper-entry:last-child {
-  border-bottom: none;
-}
-
-.paper-list > li.paper-entry::before {
-  content: counter(paper-counter) ".";
-  position: absolute;
-  left: 0;
-  top: 1.25rem;
-  font-weight: 400;
-  color: #555;
-  font-size: 1rem;
-}
-
-/* Override global li::marker for paper list */
 .paper-list > li::marker {
   content: none !important;
 }
 
 .paper-list > li {
-  padding-left: 2.5rem;
+  padding-left: 0;
 }
 
-/* Paper title */
+/* Paper title — Bold + pure black, slightly larger than body, tight line-height.
+   The bold weight IS the primary affordance signal. Color shift + underline on hover. */
 .paper-title {
-  font-weight: 500;
-  font-size: 1rem;
+  font-weight: 700;
+  font-size: 1.05rem;
+  line-height: 1.3;
+  margin: 0 0 0.4rem 0;
   color: #000;
-  margin: 0 0 0.2rem 0;
 }
 
-/* Paper award/distinction */
-.paper-award {
-  color: #555;
-  font-size: 0.9rem;
-  font-style: italic;
-  margin: 0 0 0.2rem 0;
-}
-
-/* Paper metadata: coauthors + links, tight spacing */
-.paper-meta {
-  color: #555;
-  font-size: 0.9rem;
-  margin: 0 0 0.3rem 0;
-  line-height: 2;
-}
-
-/* Coauthor links - subtle */
-.paper-meta a {
-  color: #555;
+.paper-title-link,
+.paper-title-link:visited {
+  color: var(--ink);
   text-decoration: none;
-  border-bottom: 1px dotted #999;
+  transition: color 0.15s ease;
+}
+
+.paper-title-link:hover,
+.paper-title-link:focus {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+/* Paper meta — single muted tone for coauthors AND date. */
+.paper-meta {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin: 0 0 0.4rem 0;
+  line-height: 1.5;
+}
+
+.paper-meta .paper-date {
+  color: inherit; /* same Muted as the rest of the meta — no second grey */
+}
+
+.paper-meta a,
+.paper-meta a:visited {
+  color: var(--muted);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--faint);
 }
 
 .paper-meta a:hover {
-  color: #000;
-  text-decoration: none;
-  border-bottom: 1px solid #000;
+  color: var(--ink);
+  border-bottom: 1px solid var(--ink);
 }
 
-/* PDF/SSRN links - accent color */
-.paper-meta a.paper-link {
-  color: #8b4049;
-  border-bottom: none;
+/* Action row — Accent (NOT muted grey). Hierarchy is via size (0.9rem)
+   and weight (400), not color. Title at 1rem/500 wins visually. */
+.paper-actions {
+  margin: 0 0 0.25rem 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
 
-.paper-meta a.paper-link:hover {
-  color: #6d3038;
-  text-decoration: underline;
-  border-bottom: none;
-}
-
-/* Media coverage links - distinct muted style */
-.paper-meta a.media-link {
-  color: #666;
-  border-bottom: none;
-  font-style: italic;
-}
-
-.paper-meta a.media-link:hover {
-  color: #333;
-  text-decoration: underline;
-  border-bottom: none;
-}
-
-/* Abstract toggle using native <details> */
-.paper-abstract {
-  margin: 0.3rem 0 0 0;
-}
-
-.paper-abstract summary {
-  color: #555;
+.paper-action,
+.paper-action:visited {
+  display: inline;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  line-height: inherit;
+  color: var(--accent);
   cursor: pointer;
-  font-size: 0.9rem;
-  font-style: italic;
-  transition: color 0.2s ease;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s ease, color 0.15s ease;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
-.paper-abstract summary:hover {
-  color: #000;
+.paper-action:hover,
+.paper-action:focus {
+  color: var(--accent-dk);
+  border-bottom-color: var(--accent-dk);
+  outline: none;
 }
 
+.paper-action[aria-expanded="true"] {
+  color: var(--accent-dk);
+  border-bottom-color: var(--accent-dk);
+}
+
+/* Chevron glyph on toggles (Abstract, BibTeX). Right-pointing at rest,
+   down-pointing when the panel is open. */
+.paper-toggle::after {
+  content: " \25B8"; /* ▸ */
+  margin-left: 0.15rem;
+  font-size: 0.85em;
+  color: inherit;
+}
+
+.paper-toggle[aria-expanded="true"]::after {
+  content: " \25BE"; /* ▾ */
+}
+
+/* Separator — Faint, outside the action box so hover underline doesn't reach it */
+.paper-sep {
+  color: var(--faint);
+  margin: 0 0.4rem;
+  user-select: none;
+}
+
+/* Media-coverage variant — same styling as other actions (italic removed for uniformity) */
+.paper-action.paper-action-media {
+  color: var(--accent);
+}
+
+.paper-action.paper-action-media:hover {
+  color: var(--accent-dk);
+  border-bottom-color: var(--accent-dk);
+}
+
+/* Expandable panels (abstract, BibTeX, etc.) — shared layout */
+.paper-panel {
+  margin: 0.5rem 0 0 0;
+}
+
+.paper-panel[hidden] {
+  display: none;
+}
+
+/* Abstract — readable prose, matches meta size (0.95rem). */
 .paper-abstract p {
-  margin-top: 0.5rem;
+  margin: 0;
   padding: 0.75rem 1rem;
-  background-color: #f8f9fa;
+  background-color: var(--panel);
   border-radius: 4px;
-  border-left: 3px solid #ddd;
-  font-size: 0.9rem;
+  border-left: 3px solid var(--faint);
+  font-size: 0.95rem;
   line-height: 1.6;
-  color: #333;
+  color: var(--ink);
 }
 
-/* Clean section dividers */
+
+/* ============================================================
+   Homepage utility links (email | CV | pronunciation)
+   ============================================================ */
+
+.home-meta-link,
+.home-meta-link:visited {
+  color: var(--muted);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--faint);
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.home-meta-link:hover {
+  color: var(--ink);
+  border-bottom: 1px solid var(--ink);
+}
+
+/* ============================================================
+   Misc
+   ============================================================ */
+
 hr {
   border: none;
   height: 1px;
-  background-color: #e9ecef;
+  background-color: var(--faint);
   margin: 2rem 0;
 }
 
-/* Citation code blocks */
 pre {
   background-color: transparent !important;
   border: none !important;

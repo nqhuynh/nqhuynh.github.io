@@ -20,8 +20,6 @@ website:
       #   href: "mailto:nqh@ou.edu"
   sidebar: false
   navbar:
-    background: "transparent"
-    foreground: "#666"
     pinned: true
     search: false
     right:
@@ -38,7 +36,6 @@ format:
   html:
     theme: cosmo
     mainfont: 'Roboto'
-    # monofont: 
     linkcolor: "#8b4049"
     fontcolor: "black"
     monobackgroundcolor:  "white"

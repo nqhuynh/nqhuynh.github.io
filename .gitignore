@@ -4,3 +4,8 @@
 .Ruserdata
 
 /.quarto/
+
+# Local-only tooling
+/.claude/
+/.impeccable/
+.DS_Store
