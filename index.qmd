@@ -10,8 +10,6 @@ css: styles.css
 
 I'm an Assistant Professor in the Department of Economics at the [University of Oklahoma](https://www.ou.edu/cas/economics).
 
-My research focuses on international trade, spatial economics, and development economics.
+My research focuses on international trade, spatial economics, and development economics. I received my PhD from Yale University in 2024.
 
-Before joining OU, I completed my PhD in Economics at Yale University in 2024. My papers are on my [research page](/research.html).
-
-[nqh@ou.edu](mailto:nqh@ou.edu){.home-meta-link} | [CV](Huynh_Nghiem_CV.pdf){target="_blank" .home-meta-link} | [Name pronunciation](https://hearmyname.net/say/vi-vn/Nghi%C3%AAm%20Hu%E1%BB%B3nh){target="_blank" .home-meta-link}
+[CV](Huynh_Nghiem_CV.pdf){target="_blank"} | [nqh@ou.edu](mailto:nqh@ou.edu) | [Name pronunciation](https://hearmyname.net/say/vi-vn/Nghi%C3%AAm%20Hu%E1%BB%B3nh){target="_blank"}
