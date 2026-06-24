@@ -41,15 +41,15 @@ with <a href="https://sheng-cai.com/" target="_blank">Sheng Cai</a> and <a href=
 </li>
 
 <li class="paper-entry" id="paper-hukou">
-<p class="paper-title"><a class="paper-title-link" href="papers/Hukou_Unrest.pdf" target="_blank">Does Easing Migration Barriers Increase Labor Unrest?</a></p>
+<p class="paper-title"><a class="paper-title-link" href="papers/Hukou_Unrest.pdf" target="_blank">Does Easing Migration Barriers Increase Labor Unrest? Evidence from the Hukou Reform in China</a></p>
 <p class="paper-meta">
-with <a href="https://sites.google.com/view/firatdemir/home" target="_blank">Firat Demir</a> and <a href="https://cob.sfsu.edu/directory/chenghao-matt-hu" target="_blank">Chenghao Hu</a> <span class="paper-date">(Apr. 2026)</span>
+with <a href="https://sites.google.com/view/firatdemir/home" target="_blank">Firat Demir</a> and <a href="https://cob.sfsu.edu/directory/chenghao-matt-hu" target="_blank">Chenghao Hu</a> <span class="paper-date">(Jun. 2026)</span>
 </p>
 <p class="paper-actions">
 <button type="button" class="paper-action paper-toggle" aria-expanded="false" aria-controls="abs-hukou">Abstract</button><span class="paper-sep">|</span><a class="paper-action" href="https://papers.ssrn.com/abstract=5578851" target="_blank">SSRN</a>
 </p>
 <div id="abs-hukou" class="paper-panel paper-abstract" hidden>
-<p>Most evidence finds that granting formal status to migrants reduces crime and unrest. We find the opposite. Exploiting China's 2014 Hukou reform, which reduced within-country migration barriers, particularly for cities below one million residents, we show that per capita unrest almost doubled and peaked at nearly four times the pre-reform mean. The increase was concentrated in manufacturing, construction, and transportation sectors. Service employment expanded in low-skill sectors, but manufacturing employment remained unchanged. The reform expanded migrants' access to formal residency faster than labor markets could absorb, increasing pressure on employment, contracts, and social insurance.</p>
+<p>A large body of evidence suggests that granting formal status to migrants reduces crime and unrest. Our results challenge this view. China's 2014 Hukou reform eased within-country migration barriers, most extensively for cities below one million residents. Exploiting this variation, we estimate the reform increased per capita unrest by about 2.5 times its pre-reform average. The increase was concentrated in manufacturing, construction, and transportation, sectors with high migrant employment. Manufacturing employment did not increase, and earnings declined in low-skill services. We argue that formal status expanded migrants' local social and economic entitlements faster than employers and local governments fulfilled them.</p>
 </div>
 </li>
 
