@@ -56,7 +56,7 @@ with <a href="https://sites.google.com/view/firatdemir/home" target="_blank">Fir
 <li class="paper-entry" id="paper-srb">
 <p class="paper-title"><a class="paper-title-link" href="papers/SRB.pdf" target="_blank">Better Jobs for Mothers, More Sons at Birth</a></p>
 <p class="paper-meta">
-with <a href="https://www.linkedin.com/in/ngoc-nguyen-04183/" target="_blank">Ngoc T. T. Nguyen</a> <span class="paper-date">(August 2026)</span>
+with <a href="https://www.linkedin.com/in/ngoc-nguyen-04183/" target="_blank">Ngoc T. T. Nguyen</a> <span class="paper-date">(Aug. 2026)</span>
 </p>
 <p class="paper-actions">
 <button type="button" class="paper-action paper-toggle" aria-expanded="false" aria-controls="abs-srb">Abstract</button><span class="paper-sep">|</span><a class="paper-action" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4582123" target="_blank">SSRN</a><span class="paper-sep">|</span><a class="paper-action" href="https://fsppm.fulbright.edu.vn/vn/tin-tuc-su-kien/tin-tuc-fsppm/moi-lien-ket-giua-thuong-mai-quoc-te-va-ty-le-gioi-tinh-tai-viet-nam/" target="_blank">Summary (Vietnamese)</a>
