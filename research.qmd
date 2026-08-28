@@ -56,13 +56,13 @@ with <a href="https://sites.google.com/view/firatdemir/home" target="_blank">Fir
 <li class="paper-entry" id="paper-srb">
 <p class="paper-title"><a class="paper-title-link" href="papers/SRB.pdf" target="_blank">Better Jobs for Mothers, More Sons at Birth</a></p>
 <p class="paper-meta">
-with <a href="https://www.linkedin.com/in/ngoc-nguyen-04183/" target="_blank">Ngoc T. T. Nguyen</a> <span class="paper-date">(May 2026)</span>
+with <a href="https://www.linkedin.com/in/ngoc-nguyen-04183/" target="_blank">Ngoc T. T. Nguyen</a> <span class="paper-date">(August 2026)</span>
 </p>
 <p class="paper-actions">
 <button type="button" class="paper-action paper-toggle" aria-expanded="false" aria-controls="abs-srb">Abstract</button><span class="paper-sep">|</span><a class="paper-action" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4582123" target="_blank">SSRN</a><span class="paper-sep">|</span><a class="paper-action" href="https://fsppm.fulbright.edu.vn/vn/tin-tuc-su-kien/tin-tuc-fsppm/moi-lien-ket-giua-thuong-mai-quoc-te-va-ty-le-gioi-tinh-tai-viet-nam/" target="_blank">Summary (Vietnamese)</a>
 </p>
 <div id="abs-srb" class="paper-panel paper-abstract" hidden>
-<p>Vietnam's sex ratio at birth became more male-biased even as gender gaps in employment and education narrowed. We test a household model with son preference in which maternal wage gains tighten the time cost of childbearing, lowering fertility and raising sex selection despite higher returns to daughters. Exploiting industry-level tariff cuts from the 2001 US-Vietnam Bilateral Trade Agreement, we assign exposure separately to each parent. Maternal exposure raises male births and lowers fertility; paternal exposure raises fertility but not sex selection. Closing labor-market gender gaps can widen gaps at birth where childcare falls mainly on mothers and son preference persists.</p>
+<p>Vietnam's sex ratio at birth became more male-biased even as gender gaps in employment and education narrowed. We test a household model with son preference in which maternal wage gains tighten the time cost of childbearing, lowering fertility and raising sex selection despite higher returns to daughters. Exploiting industry-level tariff cuts from the 2001 US-Vietnam trade agreement, we assign exposure separately to each parent. Maternal exposure raises male births and lowers fertility, whereas paternal exposure raises fertility but not sex selection. Closing labor-market gender gaps can widen gaps at birth where childcare falls mainly on mothers and son preference persists.</p>
 </div>
 </li>
 
