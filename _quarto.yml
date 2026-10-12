@@ -1,8 +1,6 @@
 project:
   type: website
   output-dir: docs
-  resources:
-    - NH_eiit_k7q2x9.pdf
   post-render:
     - cp CNAME docs/CNAME
 
