@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - vietnamese/**
   post-render:
     - cp CNAME docs/CNAME
 
