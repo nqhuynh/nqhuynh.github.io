@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - "one-more-thing/**"
   post-render:
     - cp CNAME docs/CNAME
 

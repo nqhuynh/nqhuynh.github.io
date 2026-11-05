@@ -1,0 +1,132 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//One More Thing//OU Economics//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:One More Thing - Fall 2026
+BEGIN:VEVENT
+UID:omt-2026-10-02@nghiemhuynh.com
+DTSTAMP:20261105T162813Z
+DTSTART:20261002T180000Z
+DTEND:20261002T190000Z
+SUMMARY:One More Thing — Nghiem Q. Huynh
+LOCATION:CCD 1326\, 308 Cate Center Drive\, Norman\, OK
+DESCRIPTION:OU Economics research brown bag. Catering: Panera Bread. Contac
+ t: nqh@ou.edu. Check the group calendar for changes.
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:One More Thing tomorrow
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:One More Thing in one hour
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:omt-2026-10-16@nghiemhuynh.com
+DTSTAMP:20261105T162813Z
+DTSTART:20261016T170000Z
+DTEND:20261016T180000Z
+SUMMARY:One More Thing — Minwoo Hyun
+LOCATION:CCD 1326\, 308 Cate Center Drive\, Norman\, OK
+DESCRIPTION:OU Economics research brown bag. Catering: Panera Bread. Contac
+ t: nqh@ou.edu. Check the group calendar for changes.
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:One More Thing tomorrow
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:One More Thing in one hour
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:omt-2026-10-23@nghiemhuynh.com
+DTSTAMP:20261105T162813Z
+DTSTART:20261023T180000Z
+DTEND:20261023T190000Z
+SUMMARY:One More Thing — Christopher Malloy
+LOCATION:CCD 1326\, 308 Cate Center Drive\, Norman\, OK
+DESCRIPTION:OU Economics research brown bag. Catering: Panera Bread. Contac
+ t: nqh@ou.edu. Check the group calendar for changes.
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:One More Thing tomorrow
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:One More Thing in one hour
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:omt-2026-10-30@nghiemhuynh.com
+DTSTAMP:20261105T162813Z
+DTSTART:20261030T170000Z
+DTEND:20261030T180000Z
+SUMMARY:One More Thing — Ruoyun Mao
+LOCATION:CCD 1326\, 308 Cate Center Drive\, Norman\, OK
+DESCRIPTION:OU Economics research brown bag. Catering: Gia Hoi Baguette. Co
+ ntact: nqh@ou.edu. Check the group calendar for changes.
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:One More Thing tomorrow
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:One More Thing in one hour
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:omt-2026-11-06@nghiemhuynh.com
+DTSTAMP:20261105T162813Z
+DTSTART:20261106T190000Z
+DTEND:20261106T200000Z
+SUMMARY:One More Thing — Victoria Mooers
+LOCATION:CCD 1326\, 308 Cate Center Drive\, Norman\, OK
+DESCRIPTION:OU Economics research brown bag. Catering: Gia Hoi Baguette. Co
+ ntact: nqh@ou.edu. Check the group calendar for changes.
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:One More Thing tomorrow
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:One More Thing in one hour
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:omt-2026-12-04@nghiemhuynh.com
+DTSTAMP:20261105T162813Z
+DTSTART:20261204T180000Z
+DTEND:20261204T190000Z
+SUMMARY:One More Thing — Judith Liu
+LOCATION:CCD 1326\, 308 Cate Center Drive\, Norman\, OK
+DESCRIPTION:OU Economics research brown bag. Tentative date. Catering: To b
+ e announced. Contact: nqh@ou.edu. Check the group calendar for changes.
+STATUS:TENTATIVE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:One More Thing tomorrow
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:One More Thing in one hour
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
