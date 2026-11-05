@@ -14,7 +14,7 @@ function download(meeting) {
 for (const meeting of meetings) {
   const row = document.createElement('tr');
   if (meeting === current) row.className = 'next-row';
-  const values = [dateLabel(meeting.start), `${timeLabel(meeting.start)}–${timeLabel(meeting.end)}`, meeting.location, meeting.presenter];
+  const values = [dateLabel(meeting.start), `${timeLabel(meeting.start)}–${timeLabel(meeting.end)}`, meeting.presenter];
   for (const [index, value] of values.entries()) {
     const cell = document.createElement('td');
     cell.textContent = value;
