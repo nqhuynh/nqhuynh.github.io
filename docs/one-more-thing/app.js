@@ -1,5 +1,5 @@
-import { settings, meetings, people } from './data.js?v=google-rsvp-20261105';
-import { dateLabel, timeLabel, nextMeeting, icsFor, googleURL } from './calendar.js?v=google-rsvp-20261105';
+import { settings, meetings, people } from './data.js?v=google-rsvp-direct-20261105';
+import { dateLabel, timeLabel, nextMeeting, icsFor, googleURL } from './calendar.js?v=google-rsvp-direct-20261105';
 const $ = selector => document.querySelector(selector);
 const current = nextMeeting(meetings);
 $('#subscribe').href = settings.calendarSubscribe;
@@ -32,7 +32,7 @@ for (const meeting of meetings) {
     }
     if (index === 0 && new Date(meeting.end) > new Date()) {
       const rsvp = document.createElement('a');
-      rsvp.href = 'order.html';
+      rsvp.href = settings.rsvpForm;
       rsvp.className = 'rsvp-link';
       rsvp.textContent = 'Participate / RSVP';
       rsvp.setAttribute('aria-label', `RSVP for ${meeting.presenter}, ${dateLabel(meeting.start)}`);
