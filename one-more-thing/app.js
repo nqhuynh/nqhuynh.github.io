@@ -1,5 +1,5 @@
-import { settings, meetings, people } from './data.js';
-import { dateLabel, timeLabel, nextMeeting, icsFor, googleURL } from './calendar.js';
+import { settings, meetings, people } from './data.js?v=plain-names-4cols';
+import { dateLabel, timeLabel, nextMeeting, icsFor, googleURL } from './calendar.js?v=plain-names-4cols';
 const $ = selector => document.querySelector(selector);
 const current = nextMeeting(meetings);
 $('#subscribe').href = settings.calendarSubscribe;
@@ -50,9 +50,4 @@ for (const meeting of meetings) {
   row.append(calendar);
   $('#schedule-body').append(row);
 }
-for (const [index, [name, url]] of Object.entries(people).entries()) {
- const link = document.createElement('a');
- link.href = url; link.target = '_blank'; link.rel = 'noopener'; link.textContent = name;
- if (index) $('#participants').append(', ');
- $('#participants').append(link);
-}
+$('#participants').textContent = Object.keys(people).join(', ')+'.';

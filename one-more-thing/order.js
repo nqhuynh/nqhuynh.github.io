@@ -1,5 +1,5 @@
-import { settings, meetings } from './data.js';
-import { nextMeeting, longDate } from './calendar.js';
+import { settings, meetings } from './data.js?v=plain-names-4cols';
+import { nextMeeting, longDate } from './calendar.js?v=plain-names-4cols';
 const $ = selector => document.querySelector(selector);
 const meeting = nextMeeting(meetings);
 if (meeting?.menu) { $('#menu').href = meeting.menu; $('#menu').textContent = meeting.catering+' menu'; } else $('#menu').hidden = true;
