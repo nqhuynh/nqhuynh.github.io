@@ -17,14 +17,7 @@ for (const meeting of meetings) {
   const values = [dateLabel(meeting.start), `${timeLabel(meeting.start)}–${timeLabel(meeting.end)}`, meeting.location, meeting.presenter];
   for (const [index, value] of values.entries()) {
     const cell = document.createElement('td');
-    if (index === 3 && people[meeting.presenter]) {
-      const link = document.createElement('a');
-      link.href = people[meeting.presenter];
-      link.target = '_blank';
-      link.rel = 'noopener';
-      link.textContent = value;
-      cell.append(link);
-    } else cell.textContent = value;
+    cell.textContent = value;
     if (index === 0 && meeting === current) {
       const label = document.createElement('span');
       label.className = 'next-label';
