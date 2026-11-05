@@ -2,6 +2,7 @@
 // Dates and presenters: "Restarting One More Thing" email thread.
 export const settings = {
   organizer: 'nqh@ou.edu',
+  rsvpForm: 'https://docs.google.com/forms/d/e/1FAIpQLSdM9RxBrhdNph3YPmPy9WhirKH362jiexs4fbT2S0HSWu7RuA/viewform',
   calendarId: '01b917a3e046d15d8f446e8abd5b9a67c6807c391ba51d91d120834391979172@group.calendar.google.com',
   calendarSubscribe: 'https://calendar.google.com/calendar/u/0?cid=MDFiOTE3YTNlMDQ2ZDE1ZDhmNDQ2ZThhYmQ1YjlhNjdjNjgwN2MzOTFiYTUxZDkxZDEyMDgzNDM5MTk3OTE3MkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t',
   menu: 'https://www.ubereats.com/store/gia-hoi-baguette/MRgeYXiNV8eTcMdeCk2gBg',
