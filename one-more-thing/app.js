@@ -1,16 +1,8 @@
-import { settings, meetings, people } from './data.js?v=google-rsvp-direct-20261105';
-import { dateLabel, timeLabel, nextMeeting, icsFor, googleURL } from './calendar.js?v=google-rsvp-direct-20261105';
+import { settings, meetings, people } from './data.js?v=fewer-links-20261106';
+import { dateLabel, timeLabel, nextMeeting } from './calendar.js?v=fewer-links-20261106';
 const $ = selector => document.querySelector(selector);
 const current = nextMeeting(meetings);
 $('#subscribe').href = settings.calendarSubscribe;
-function download(meeting) {
-  const url = URL.createObjectURL(new Blob([icsFor(meeting)], { type: 'text/calendar;charset=utf-8' }));
-  const link = document.createElement('a');
-  link.href = url;
-  link.download = `one-more-thing-${meeting.id}.ics`;
-  link.click();
-  setTimeout(() => URL.revokeObjectURL(url), 1000);
-}
 for (const meeting of meetings) {
   const row = document.createElement('tr');
   if (meeting === current) row.className = 'next-row';
@@ -30,32 +22,17 @@ for (const meeting of meetings) {
       label.textContent = 'Tentative';
       cell.append(label);
     }
-    if (index === 0 && new Date(meeting.end) > new Date()) {
-      const rsvp = document.createElement('a');
-      rsvp.href = settings.rsvpForm;
-      rsvp.className = 'rsvp-link';
-      rsvp.textContent = 'Participate / RSVP';
-      rsvp.setAttribute('aria-label', `RSVP for ${meeting.presenter}, ${dateLabel(meeting.start)}`);
-      cell.append(rsvp);
-    }
     row.append(cell);
   }
-  const calendar = document.createElement('td');
+  const rsvpCell = document.createElement('td');
   if (new Date(meeting.end) > new Date()) {
-    const google = document.createElement('a');
-    google.href = googleURL(meeting);
-    google.target = '_blank';
-    google.rel = 'noopener';
-    google.textContent = 'Google';
-    google.setAttribute('aria-label', `Add ${meeting.presenter}, ${dateLabel(meeting.start)}, to Google Calendar`);
-    const ics = document.createElement('a');
-    ics.href = '#';
-    ics.textContent = '.ics';
-    ics.setAttribute('aria-label', `Download calendar event for ${meeting.presenter}, ${dateLabel(meeting.start)}`);
-    ics.addEventListener('click', event => { event.preventDefault(); download(meeting); });
-    calendar.append(google, ' · ', ics);
-  } else calendar.textContent = '—';
-  row.append(calendar);
+    const rsvp = document.createElement('a');
+    rsvp.href = settings.rsvpForm;
+    rsvp.textContent = 'RSVP';
+    rsvp.setAttribute('aria-label', `RSVP for ${meeting.presenter}, ${dateLabel(meeting.start)}`);
+    rsvpCell.append(rsvp);
+  } else rsvpCell.textContent = '—';
+  row.append(rsvpCell);
   $('#schedule-body').append(row);
 }
 $('#participants').textContent = Object.keys(people).join(', ')+'.';
