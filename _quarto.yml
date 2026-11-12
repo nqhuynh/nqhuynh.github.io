@@ -3,6 +3,7 @@ project:
   output-dir: docs
   resources:
     - "one-more-thing/**"
+    - "mmm2026.pdf"   # Midwest Macro 2026 slides, nghiemhuynh.com/mmm2026.pdf
   post-render:
     - cp CNAME docs/CNAME
 
