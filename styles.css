@@ -274,7 +274,7 @@ h2 {
 /* Paper title — Black weight (900) + pure black color, slightly larger than body.
    The heavy weight IS the primary affordance signal. Color shift + underline on hover. */
 .paper-title {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 1.05rem;
   line-height: 1.3;
   margin: 0 0 0.4rem 0;
@@ -284,6 +284,7 @@ h2 {
 .paper-title-link,
 .paper-title-link:visited {
   color: var(--ink);
+  font-weight: inherit; /* Bootstrap sets a{font-weight:400}; take the title's weight */
   text-decoration: none;
   transition: color 0.15s ease;
 }
@@ -296,19 +297,19 @@ h2 {
 
 /* Paper meta — single muted tone for coauthors AND date. */
 .paper-meta {
-  color: var(--muted);
+  color: #4a4a4a;
   font-size: 0.95rem;
   margin: 0 0 0.4rem 0;
   line-height: 1.5;
 }
 
 .paper-meta .paper-date {
-  color: inherit; /* same Muted as the rest of the meta — no second grey */
+  color: #8a8a8a; /* date lighter than coauthor names */
 }
 
 .paper-meta a,
 .paper-meta a:visited {
-  color: var(--muted);
+  color: #4a4a4a;
   text-decoration: none;
   border-bottom: 1px solid transparent;
   transition: color 0.15s ease, border-color 0.15s ease;
@@ -336,7 +337,7 @@ h2 {
   margin: 0;
   font: inherit;
   line-height: inherit;
-  color: var(--accent);
+  color: #8a8a8a;
   cursor: pointer;
   text-decoration: none;
   border-bottom: 1px solid transparent;
@@ -347,14 +348,14 @@ h2 {
 
 .paper-action:hover,
 .paper-action:focus {
-  color: var(--accent-dk);
-  border-bottom-color: var(--accent-dk);
+  color: var(--ink);
+  border-bottom-color: var(--ink);
   outline: none;
 }
 
 .paper-action[aria-expanded="true"] {
-  color: var(--accent-dk);
-  border-bottom-color: var(--accent-dk);
+  color: var(--ink);
+  border-bottom-color: var(--ink);
 }
 
 /* Chevron glyph on toggles (Abstract, BibTeX). Right-pointing at rest,
@@ -379,12 +380,12 @@ h2 {
 
 /* Media-coverage variant — same styling as other actions (italic removed for uniformity) */
 .paper-action.paper-action-media {
-  color: var(--accent);
+  color: #8a8a8a;
 }
 
 .paper-action.paper-action-media:hover {
-  color: var(--accent-dk);
-  border-bottom-color: var(--accent-dk);
+  color: var(--ink);
+  border-bottom-color: var(--ink);
 }
 
 /* Expandable panels (abstract, BibTeX, etc.) — shared layout */
