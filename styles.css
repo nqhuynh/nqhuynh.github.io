@@ -274,7 +274,7 @@ h2 {
 /* Paper title — Black weight (900) + pure black color, slightly larger than body.
    The heavy weight IS the primary affordance signal. Color shift + underline on hover. */
 .paper-title {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 1.05rem;
   line-height: 1.3;
   margin: 0 0 0.4rem 0;
