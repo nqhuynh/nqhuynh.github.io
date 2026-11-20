@@ -5,6 +5,7 @@ project:
     - "tip_china.pdf"   # Unlisted NBER chapter
     - "one-more-thing/**"
     - "mmm2026.pdf"   # Midwest Macro 2026 slides, nghiemhuynh.com/mmm2026.pdf
+    - "sea2026.pdf"   # SEA 2026 slides (CFH), nghiemhuynh.com/sea2026.pdf
   post-render:
     - cp CNAME docs/CNAME
 
